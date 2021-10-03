@@ -8,7 +8,7 @@ import datetime, time
 
 # local imports
 import config
-import log
+from log import logging as log
 
 
 Base = declarative_base()
@@ -61,11 +61,11 @@ class Episode(Base):
     podcast = relationship(Podcast)
     veiwed = Column(Integer)
 
-    def log(self,input):
-        with open("test.txt", "a") as myfile:
-            string=datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
-            string=string+ ' - ' + str(input) + '\n'
-            myfile.write(string)
+    # def log(self,input):
+    #     with open("test.txt", "a") as myfile:
+    #         string=datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
+    #         string=string+ ' - ' + str(input) + '\n'
+    #         myfile.write(string)
 
     def __init__(self,title='', published='', summary='',length='',audio='',podcast_id='',href=''):
         self.title = title
@@ -100,4 +100,5 @@ def create_database(location):
 
 if __name__ == "__main__":
     create_database(config.home)
+    log.info(config.home)
     pass
