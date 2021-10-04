@@ -1,2 +1,2 @@
-home = '/home/marc/Desktop/'
+home = '/home/marc/'
 name = 'test.sqlite3'
