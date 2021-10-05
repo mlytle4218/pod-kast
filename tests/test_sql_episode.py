@@ -12,7 +12,7 @@ from log import logging as log
 
 test1 = Episode(
     title = 'test1',
-    published =   datetime.datetime(2021, 5, 10),
+    published =   datetime.date(2021, 5, 1),
     summary='summary1',
     length=20,
     audio=True,
@@ -22,26 +22,35 @@ test1 = Episode(
 
 test2 = Episode(
     title = 'test2',
-    published = datetime.datetime(2020, 4, 9),
+    published = datetime.date(2021, 5, 2),
     summary='summary2',
     length=20,
     audio=True,
     podcast_id=1,
     href='http://whatever2.com'
 )
+test3 = Episode(
+    title = 'test3',
+    published =   datetime.date(2021, 5, 3),
+    summary='summary3',
+    length=20,
+    audio=True,
+    podcast_id=2,
+    href='http://whatever3.com'
+)
+
+test4 = Episode(
+    title = 'test4',
+    published = datetime.date(2021, 5, 4),
+    summary='summary4',
+    length=20,
+    audio=True,
+    podcast_id=2,
+    href='http://whatever4.com'
+)
 
 
-#     episode_id = Column(Integer, primary_key = True)
-#     title = Column(String(100))
-#     published  = Column(DateTime(250))
-#     summary = Column(String(500))
-#     length = Column(Integer)
-#     audio = Column(Integer)
-#     href = Column(String(250))
-#     downloaded = Column(Integer)
-#     podcast_id = Column(Integer, ForeignKey('podcasts.podcast_id'))
-#     podcast = relationship(Podcast)
-#     veiwed = Column(Integer)
+
 
 class TestSqlCategoryClass:
     @classmethod
@@ -63,9 +72,18 @@ class TestSqlCategoryClass:
 
     def test_add_new_episode(self):
         result = da.add_new_episode(self.session,test1)
-        log.info('test_add_new_episode')
-        log.info(result)
         assert result.title == test1.title
+        
+        result = da.add_new_episode(self.session,test2)
+        assert result.title == test2.title
+
+        result = da.add_new_episode(self.session,test2)
+        assert result.title == test2.title
+
+        result = da.add_new_episode(self.session,test4)
+        assert result.title == test4.title
+
+
     # def test_update_episode_as_downloaded(self):
     #     pass
     # def test_get_episodes_with_downloads_available(self, session):
@@ -77,17 +95,6 @@ class TestSqlCategoryClass:
     #         return True
     #     except Exception as e:
     #         log.error('delete_episode')
-    #         log.error(episode)
-    #         log.error(str(e))
-    #     return False
-            
-    # def test_add_new_episode(self, session, episode):
-    #     try:
-    #         session.add(episode)
-    #         session.commit()
-    #         return True
-    #     except Exception as e:
-    #         log.error('add_episode')
     #         log.error(episode)
     #         log.error(str(e))
     #     return False
