@@ -5,6 +5,8 @@ from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 import datetime, time
 
+from sqlalchemy.sql.sqltypes import Boolean
+
 
 # local imports
 import config
@@ -16,13 +18,13 @@ Base = declarative_base()
 class Category(Base):
     __tablename__ = 'categories'
     category_id = Column(Integer, primary_key = True)
-    category = Column(String(250))
+    title = Column(String(250))
 
     def __str__(self):
-        return self.category
+        return self.title
 
-    def __init__(self, category=''):
-        self.category = category
+    def __init__(self, title=''):
+        self.title = title
 
 class Podcast(Base):
     __tablename__ = 'podcasts'
@@ -54,12 +56,12 @@ class Episode(Base):
     published  = Column(DateTime(250))
     summary = Column(String(500))
     length = Column(Integer)
-    audio = Column(Integer)
+    audio = Column(Boolean)
     href = Column(String(250))
-    downloaded = Column(Integer)
+    downloaded = Column(Boolean)
     podcast_id = Column(Integer, ForeignKey('podcasts.podcast_id'))
     podcast = relationship(Podcast)
-    veiwed = Column(Integer)
+    veiwed = Column(Boolean)
 
     # def log(self,input):
     #     with open("test.txt", "a") as myfile:

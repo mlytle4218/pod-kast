@@ -1,13 +1,16 @@
 import config_test
 import os
-import sqlite3
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, DateTime, ForeignKey
+from sqlalchemy import create_engine
 
 #local imports
 from sql_category import DatabaseAccessor as da
 from sqlite_database_creation import Category, create_database
+from log import logging as log
+
+test1 = 'test1'
+test2 = 'test2'
 
 
 class TestSqlCategoryClass:
@@ -43,13 +46,28 @@ class TestSqlCategoryClass:
 
 
     def test_add_category(self):
-        name  = "test1"
-        category = Category(category=name)
+        name  = test1
+        category = Category(title=name)
         result = da.add_new_category(self.session,category)
+        print(str(result))
         assert name == str(result)
-        
+
         result = da.add_new_category(self.session,category)
+        assert False == result
+
+        name  = test2
+        category = Category(title=name)
+        result = da.add_new_category(self.session,category)
+        print(str(result))
         assert name == str(result)
 
         result = da.get_all_categories(self.session)
-        assert len(result) == 1
+        assert len(result) == 2
+
+    def test_remove_category(self):
+        result = da.remove_category(self.session,title=str(test1))
+        assert result == True
+        
+        result = da.remove_category(self.session,title=str(test1))
+        assert result == False
+        
