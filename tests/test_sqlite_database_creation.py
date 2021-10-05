@@ -21,10 +21,10 @@ class TestSqliteDatabaseCreationClass:
         self.conn = sqlite3.connect('{}{}'.format(config_test.home,config_test.name))
         self.cursor = self.conn.cursor()
          
-        metadata = MetaData(self.conn)
+        # metadata = MetaData(self.conn)
     
-        Session = sessionmaker(bind=self.conn)
-        self.session = Session()
+        # Session = sessionmaker(bind=self.conn)
+        # self.session = Session()
 
     @classmethod
     def teardown_class(self):
@@ -37,5 +37,5 @@ class TestSqliteDatabaseCreationClass:
         for result in results.fetchall():
             assert result in [('categories',),('episodes',),('podcasts',),]
 
-    def test_sql_catagory(self):
-        TestSqlCategoryClass.add_category_test(session=self.session)
+    # def test_sql_catagory(self):
+    #     TestSqlCategoryClass.add_category_test(connection=self.cursor)
