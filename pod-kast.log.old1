@@ -1,0 +1,1484 @@
+2021-10-03 16:00:26 INFO     /home/marc/pod-kast/testSql.sqlite3
+2021-10-05 10:58:27 INFO     <class 'str'>
+2021-10-05 10:58:27 INFO     <class 'str'>
+2021-10-05 10:58:51 INFO     [<sqlite_database_creation.Category object at 0x7f8169a6bd90>]
+2021-10-05 10:58:51 INFO     [<sqlite_database_creation.Category object at 0x7f81699b4ca0>]
+2021-10-05 10:59:30 INFO     [<sqlite_database_creation.Category object at 0x7f7a4d8237c0>, <sqlite_database_creation.Category object at 0x7f7a4d8f3160>]
+2021-10-05 10:59:30 INFO     [<sqlite_database_creation.Category object at 0x7f7a4d8239a0>, <sqlite_database_creation.Category object at 0x7f7a4d8572b0>]
+2021-10-05 10:59:39 INFO     [<sqlite_database_creation.Category object at 0x7efd6338d820>, <sqlite_database_creation.Category object at 0x7efd63444e20>]
+2021-10-05 10:59:39 INFO     [<sqlite_database_creation.Category object at 0x7efd6338d730>, <sqlite_database_creation.Category object at 0x7efd63342250>]
+2021-10-05 11:01:56 INFO     [<sqlite_database_creation.Category object at 0x7f3c7ebe8850>, <sqlite_database_creation.Category object at 0x7f3c7ec63f10>]
+2021-10-05 11:01:57 INFO     [<sqlite_database_creation.Category object at 0x7f3c7ebe86a0>, <sqlite_database_creation.Category object at 0x7f3c7eb9e280>]
+2021-10-05 11:04:27 INFO     test1
+2021-10-05 11:04:27 INFO     test1
+2021-10-05 11:06:51 INFO     test1
+2021-10-05 11:06:51 INFO     test1
+2021-10-05 11:07:17 INFO     test1
+2021-10-05 11:07:17 INFO     test1
+2021-10-05 11:09:42 INFO     test1
+2021-10-05 11:09:42 INFO     test1
+2021-10-05 11:10:54 INFO     test1
+2021-10-05 11:10:54 INFO     test1
+2021-10-05 11:11:11 INFO     test1
+2021-10-05 11:11:12 INFO     test1
+2021-10-05 11:11:19 INFO     test1
+2021-10-05 11:11:19 INFO     test1
+2021-10-05 11:12:07 INFO     test1
+2021-10-05 11:12:07 INFO     test1
+2021-10-05 11:12:32 INFO     test1
+2021-10-05 11:12:32 INFO     test1
+2021-10-05 11:13:40 INFO     test1
+2021-10-05 11:13:40 INFO     test1
+2021-10-05 11:14:02 INFO     test1
+2021-10-05 11:14:02 INFO     test1
+2021-10-05 11:14:51 INFO     test1
+2021-10-05 11:14:51 INFO     exists
+2021-10-05 11:14:51 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:14:51 INFO     test1
+2021-10-05 11:14:51 INFO     exists
+2021-10-05 11:14:51 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:15:39 INFO     test1
+2021-10-05 11:15:39 INFO     exists
+2021-10-05 11:15:39 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:15:39 INFO     test1
+2021-10-05 11:15:39 INFO     exists
+2021-10-05 11:15:39 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:16:18 INFO     test1
+2021-10-05 11:16:18 INFO     exists
+2021-10-05 11:16:18 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:16:18 INFO     test1
+2021-10-05 11:16:18 INFO     exists
+2021-10-05 11:16:18 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:16:34 INFO     test1
+2021-10-05 11:16:34 INFO     exists
+2021-10-05 11:16:34 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:16:34 INFO     test1
+2021-10-05 11:16:34 INFO     exists
+2021-10-05 11:16:34 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:17:14 INFO     test1
+2021-10-05 11:17:14 INFO     test1
+2021-10-05 11:18:50 INFO     test1
+2021-10-05 11:18:50 INFO     exists
+2021-10-05 11:18:50 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:18:50 INFO     test1
+2021-10-05 11:18:50 INFO     exists
+2021-10-05 11:18:50 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:21:52 INFO     test1
+2021-10-05 11:21:52 INFO     test1
+2021-10-05 11:22:09 INFO     test1
+2021-10-05 11:22:09 INFO     exists
+2021-10-05 11:22:09 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:22:09 INFO     test1
+2021-10-05 11:22:09 INFO     exists
+2021-10-05 11:22:09 INFO     SELECT categories.category_id AS categories_category_id, categories.title AS categories_title 
+FROM categories 
+WHERE categories.title = ?
+2021-10-05 11:22:44 INFO     test1
+2021-10-05 11:22:44 INFO     exists
+2021-10-05 11:22:44 INFO     None
+2021-10-05 11:22:44 INFO     test1
+2021-10-05 11:22:44 INFO     exists
+2021-10-05 11:22:44 INFO     test1
+2021-10-05 11:22:44 INFO     test1
+2021-10-05 11:22:44 INFO     exists
+2021-10-05 11:22:44 INFO     None
+2021-10-05 11:22:44 INFO     test1
+2021-10-05 11:22:44 INFO     exists
+2021-10-05 11:22:44 INFO     test1
+2021-10-05 11:23:18 INFO     test1
+2021-10-05 11:23:18 INFO     exists
+2021-10-05 11:23:18 INFO     None
+2021-10-05 11:23:18 INFO     got here
+2021-10-05 11:23:18 INFO     test1
+2021-10-05 11:23:18 INFO     exists
+2021-10-05 11:23:18 INFO     test1
+2021-10-05 11:23:18 INFO     test1
+2021-10-05 11:23:18 INFO     exists
+2021-10-05 11:23:18 INFO     None
+2021-10-05 11:23:18 INFO     got here
+2021-10-05 11:23:18 INFO     test1
+2021-10-05 11:23:18 INFO     exists
+2021-10-05 11:23:18 INFO     test1
+2021-10-05 11:24:33 INFO     exists
+2021-10-05 11:24:33 INFO     None
+2021-10-05 11:24:33 INFO     got here
+2021-10-05 11:24:33 INFO     exists
+2021-10-05 11:24:33 INFO     test1
+2021-10-05 11:24:33 INFO     [<sqlite_database_creation.Category object at 0x7f41e1b06e50>]
+2021-10-05 11:24:33 INFO     exists
+2021-10-05 11:24:33 INFO     None
+2021-10-05 11:24:33 INFO     got here
+2021-10-05 11:24:33 INFO     exists
+2021-10-05 11:24:33 INFO     test1
+2021-10-05 11:24:33 INFO     [<sqlite_database_creation.Category object at 0x7f41e19f71c0>]
+2021-10-05 11:24:45 INFO     exists
+2021-10-05 11:24:45 INFO     None
+2021-10-05 11:24:45 INFO     got here
+2021-10-05 11:24:45 INFO     exists
+2021-10-05 11:24:45 INFO     test1
+2021-10-05 11:24:45 INFO     [<sqlite_database_creation.Category object at 0x7f8f5d727d90>]
+2021-10-05 11:24:46 INFO     exists
+2021-10-05 11:24:46 INFO     None
+2021-10-05 11:24:46 INFO     got here
+2021-10-05 11:24:46 INFO     exists
+2021-10-05 11:24:46 INFO     test1
+2021-10-05 11:24:46 INFO     [<sqlite_database_creation.Category object at 0x7f8f5d69a7f0>]
+2021-10-05 11:25:15 INFO     [<sqlite_database_creation.Category object at 0x7f9e79a11eb0>]
+2021-10-05 11:25:15 INFO     [<sqlite_database_creation.Category object at 0x7f9e79905220>]
+2021-10-05 11:32:39 INFO     None
+2021-10-05 11:32:39 INFO     None
+2021-10-05 11:32:39 INFO     None
+2021-10-05 11:32:39 INFO     None
+2021-10-05 11:33:00 INFO     None
+2021-10-05 11:33:00 INFO     None
+2021-10-05 11:33:00 INFO     None
+2021-10-05 11:33:00 INFO     None
+2021-10-05 11:33:47 INFO     None
+2021-10-05 11:33:47 INFO     None
+2021-10-05 11:33:47 INFO     None
+2021-10-05 11:33:47 INFO     None
+2021-10-05 11:35:20 INFO     True
+2021-10-05 11:35:20 INFO     True
+2021-10-05 15:43:17 INFO     <class 'NoneType'>
+2021-10-05 15:43:43 INFO     <class 'list'>
+2021-10-05 15:43:58 INFO     <class 'list'>
+2021-10-05 15:44:37 INFO     []
+2021-10-05 15:44:55 INFO     []
+2021-10-05 15:51:20 ERROR    (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(sqlite3.InterfaceError) Error binding parameter 0 - probably unsupported type.
+[SQL: INSERT INTO podcasts (name, url, audio, video, category) VALUES (?, ?, ?, ?, ?)]
+[parameters: (<sqlite_database_creation.Podcast object at 0x7fa41437fa00>, '', '', '', '')]
+(Background on this error at: https://sqlalche.me/e/14/rvf5)
+2021-10-05 15:51:20 ERROR    This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(sqlite3.InterfaceError) Error binding parameter 0 - probably unsupported type.
+[SQL: INSERT INTO podcasts (name, url, audio, video, category) VALUES (?, ?, ?, ?, ?)]
+[parameters: (<sqlite_database_creation.Podcast object at 0x7fa41437fa00>, '', '', '', '')]
+(Background on this error at: https://sqlalche.me/e/14/rvf5) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+2021-10-05 15:51:20 ERROR    This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(sqlite3.InterfaceError) Error binding parameter 0 - probably unsupported type.
+[SQL: INSERT INTO podcasts (name, url, audio, video, category) VALUES (?, ?, ?, ?, ?)]
+[parameters: (<sqlite_database_creation.Podcast object at 0x7fa41437fa00>, '', '', '', '')]
+(Background on this error at: https://sqlalche.me/e/14/rvf5) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+2021-10-05 15:51:20 ERROR    This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(sqlite3.InterfaceError) Error binding parameter 0 - probably unsupported type.
+[SQL: INSERT INTO podcasts (name, url, audio, video, category) VALUES (?, ?, ?, ?, ?)]
+[parameters: (<sqlite_database_creation.Podcast object at 0x7fa41437fa00>, '', '', '', '')]
+(Background on this error at: https://sqlalche.me/e/14/rvf5) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+2021-10-05 16:08:51 INFO     2021-10-05 16:08:51.271721
+2021-10-05 16:11:52 ERROR    add_episode
+2021-10-05 16:11:52 ERROR    test1
+2021-10-05 16:11:52 ERROR    (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO episodes (title, published, summary, length, audio, href, downloaded, podcast_id, veiwed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'audio': True, 'length': 20, 'title': 'test1', 'summary': 'summary1', 'podcast_id': 1, 'published': '2021-10-05 16:08:51.271721', 'downloaded': 0, 'href': 'http://whatever1.com', 'veiwed': 0}]]
+2021-10-05 16:17:37 INFO     True
+2021-10-05 16:18:23 INFO     None
+2021-10-05 16:18:45 INFO     None
+2021-10-05 16:20:45 INFO     None
+2021-10-05 16:21:30 INFO     test_add_new_episode
+2021-10-05 16:21:30 INFO     None
+2021-10-05 16:22:39 INFO     result
+2021-10-05 16:22:39 INFO     None
+2021-10-05 16:22:39 INFO     test_add_new_episode
+2021-10-05 16:22:39 INFO     None
+2021-10-05 16:23:33 INFO     result
+2021-10-05 16:23:33 INFO     None
+2021-10-05 16:23:33 INFO     test_add_new_episode
+2021-10-05 16:23:33 INFO     None
+2021-10-05 16:26:03 ERROR    add_episode
+2021-10-05 16:26:03 ERROR    test1
+2021-10-05 16:26:03 ERROR    (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO episodes (title, published, summary, length, audio, href, downloaded, podcast_id, veiwed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'length': 20, 'title': 'test1', 'href': 'http://whatever1.com', 'downloaded': 0, 'audio': True, 'podcast_id': 1, 'veiwed': 0, 'summary': 'summary1', 'published': ''}]]
+2021-10-05 16:26:03 INFO     test_add_new_episode
+2021-10-05 16:26:03 INFO     None
+2021-10-05 16:27:09 ERROR    add_episode
+2021-10-05 16:27:09 ERROR    test1
+2021-10-05 16:27:09 ERROR    (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO episodes (title, published, summary, length, audio, href, downloaded, podcast_id, veiwed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'downloaded': 0, 'href': 'http://whatever1.com', 'podcast_id': 1, 'audio': True, 'title': 'test1', 'summary': 'summary1', 'published': '', 'length': 20, 'veiwed': 0}]]
+2021-10-05 16:27:09 INFO     test_add_new_episode
+2021-10-05 16:27:09 INFO     None
+2021-10-05 16:27:59 INFO     result
+2021-10-05 16:27:59 INFO     None
+2021-10-05 16:27:59 INFO     test_add_new_episode
+2021-10-05 16:27:59 INFO     None
+2021-10-05 16:28:22 INFO     result
+2021-10-05 16:28:22 INFO     None
+2021-10-05 16:28:22 INFO     test_add_new_episode
+2021-10-05 16:28:22 INFO     None
+2021-10-05 16:29:03 ERROR    add_episode
+2021-10-05 16:29:03 ERROR    test1
+2021-10-05 16:29:03 ERROR    (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO episodes (title, published, summary, length, audio, href, downloaded, podcast_id, veiwed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'downloaded': 0, 'veiwed': 0, 'summary': '', 'podcast_id': '', 'title': 'test1', 'href': '', 'published': '', 'audio': '', 'length': ''}]]
+2021-10-05 16:29:03 INFO     test_add_new_episode
+2021-10-05 16:29:03 INFO     None
+2021-10-05 16:29:38 ERROR    add_episode
+2021-10-05 16:29:38 ERROR    test1
+2021-10-05 16:29:38 ERROR    (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO episodes (title, published, summary, length, audio, href, downloaded, podcast_id, veiwed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'audio': '', 'length': '', 'href': '', 'published': '', 'podcast_id': '', 'title': 'test1', 'downloaded': 0, 'summary': '', 'veiwed': 0}]]
+2021-10-05 16:29:38 INFO     test_add_new_episode
+2021-10-05 16:29:38 INFO     None
+2021-10-05 16:32:43 ERROR    add_episode
+2021-10-05 16:32:43 ERROR    test1
+2021-10-05 16:32:43 ERROR    (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO episodes (title, published, summary, length, audio, href, downloaded, podcast_id, veiwed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'audio': '', 'href': '', 'published': '', 'length': '', 'podcast_id': '', 'title': 'test1', 'downloaded': 0, 'veiwed': 0, 'summary': ''}]]
+2021-10-05 16:32:43 INFO     test_add_new_episode
+2021-10-05 16:32:43 INFO     None
+2021-10-05 16:33:22 INFO     episode
+2021-10-05 16:33:22 INFO     test1
+2021-10-05 16:33:22 ERROR    add_episode
+2021-10-05 16:33:22 ERROR    test1
+2021-10-05 16:33:22 ERROR    (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO episodes (title, published, summary, length, audio, href, downloaded, podcast_id, veiwed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'audio': '', 'length': '', 'href': '', 'summary': '', 'title': 'test1', 'veiwed': 0, 'podcast_id': '', 'published': '', 'downloaded': 0}]]
+2021-10-05 16:33:22 INFO     test_add_new_episode
+2021-10-05 16:33:22 INFO     None
+2021-10-05 16:33:36 INFO     episode
+2021-10-05 16:33:36 INFO     
+2021-10-05 16:33:36 ERROR    add_episode
+2021-10-05 16:33:36 ERROR    test1
+2021-10-05 16:33:36 ERROR    (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO episodes (title, published, summary, length, audio, href, downloaded, podcast_id, veiwed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'veiwed': 0, 'length': '', 'published': '', 'downloaded': 0, 'podcast_id': '', 'title': 'test1', 'audio': '', 'summary': '', 'href': ''}]]
+2021-10-05 16:33:36 INFO     test_add_new_episode
+2021-10-05 16:33:36 INFO     None
+2021-10-05 16:34:03 INFO     episode
+2021-10-05 16:34:03 INFO     2021-05-09
+2021-10-05 16:34:03 INFO     result
+2021-10-05 16:34:03 INFO     None
+2021-10-05 16:34:03 INFO     test_add_new_episode
+2021-10-05 16:34:03 INFO     None
+2021-10-05 16:34:25 INFO     episode
+2021-10-05 16:34:25 INFO     2021-05-10
+2021-10-05 16:34:26 INFO     result
+2021-10-05 16:34:26 INFO     None
+2021-10-05 16:34:26 INFO     test_add_new_episode
+2021-10-05 16:34:26 INFO     None
+2021-10-05 16:36:14 INFO     episode
+2021-10-05 16:36:14 INFO     2021-05-10
+2021-10-05 16:36:14 INFO     result
+2021-10-05 16:36:14 INFO     None
+2021-10-05 16:36:14 INFO     test_add_new_episode
+2021-10-05 16:36:14 INFO     test1
+2021-10-05 16:36:31 INFO     episode
+2021-10-05 16:36:31 INFO     2021-05-10
+2021-10-05 16:36:31 INFO     result
+2021-10-05 16:36:31 INFO     None
+2021-10-05 16:36:31 INFO     test_add_new_episode
+2021-10-05 16:36:31 INFO     test1
+2021-10-05 16:36:46 INFO     episode
+2021-10-05 16:36:46 INFO     2021-05-10
+2021-10-05 16:36:46 INFO     result
+2021-10-05 16:36:46 INFO     None
+2021-10-05 16:36:46 INFO     test_add_new_episode
+2021-10-05 16:36:46 INFO     1
+2021-10-06 10:46:59 ERROR    add_new_episode
+2021-10-06 10:46:59 ERROR    test1
+2021-10-06 10:46:59 ERROR    'dict' object has no attribute 'add'
+2021-10-06 10:46:59 ERROR    get_all_episodes
+2021-10-06 10:46:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:46:59 ERROR    get_episode_by_id
+2021-10-06 10:46:59 ERROR    1
+2021-10-06 10:46:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:46:59 ERROR    get_episode_by_podcast_id
+2021-10-06 10:46:59 ERROR    1
+2021-10-06 10:46:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:46:59 ERROR    get_episodes_with_downloads_available
+2021-10-06 10:46:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:47:31 ERROR    add_new_episode
+2021-10-06 10:47:31 ERROR    test1
+2021-10-06 10:47:31 ERROR    'dict' object has no attribute 'add'
+2021-10-06 10:47:31 ERROR    get_all_episodes
+2021-10-06 10:47:31 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:47:31 ERROR    get_episode_by_id
+2021-10-06 10:47:31 ERROR    1
+2021-10-06 10:47:31 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:47:31 ERROR    get_episode_by_podcast_id
+2021-10-06 10:47:31 ERROR    1
+2021-10-06 10:47:31 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:47:31 ERROR    get_episodes_with_downloads_available
+2021-10-06 10:47:31 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:47:31 ERROR    update_episode_as_downloaded
+2021-10-06 10:47:31 ERROR    test1
+2021-10-06 10:47:31 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:50:03 ERROR    add_new_episode
+2021-10-06 10:50:03 ERROR    test1
+2021-10-06 10:50:03 ERROR    'dict' object has no attribute 'add'
+2021-10-06 10:50:03 ERROR    get_all_episodes
+2021-10-06 10:50:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:50:03 ERROR    get_episode_by_id
+2021-10-06 10:50:03 ERROR    1
+2021-10-06 10:50:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:50:03 ERROR    get_episode_by_podcast_id
+2021-10-06 10:50:03 ERROR    1
+2021-10-06 10:50:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:50:03 ERROR    get_episodes_with_downloads_available
+2021-10-06 10:50:03 ERROR    type object 'Episode' has no attribute 'veiwed'
+2021-10-06 10:50:03 ERROR    update_episode_as_downloaded
+2021-10-06 10:50:03 ERROR    test1
+2021-10-06 10:50:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:51:06 ERROR    add_new_episode
+2021-10-06 10:51:06 ERROR    test1
+2021-10-06 10:51:06 ERROR    'dict' object has no attribute 'add'
+2021-10-06 10:51:06 ERROR    get_all_episodes
+2021-10-06 10:51:06 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:51:06 ERROR    get_episode_by_id
+2021-10-06 10:51:06 ERROR    1
+2021-10-06 10:51:06 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:51:06 ERROR    get_episode_by_podcast_id
+2021-10-06 10:51:06 ERROR    1
+2021-10-06 10:51:06 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:51:06 ERROR    update_episode_as_downloaded
+2021-10-06 10:51:06 ERROR    test1
+2021-10-06 10:51:06 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:52:12 ERROR    add_new_episode
+2021-10-06 10:52:12 ERROR    test1
+2021-10-06 10:52:12 ERROR    'dict' object has no attribute 'add'
+2021-10-06 10:52:12 ERROR    get_all_episodes
+2021-10-06 10:52:12 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:52:12 ERROR    get_episode_by_id
+2021-10-06 10:52:12 ERROR    1
+2021-10-06 10:52:12 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:52:12 ERROR    get_episode_by_podcast_id
+2021-10-06 10:52:12 ERROR    1
+2021-10-06 10:52:12 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:52:12 ERROR    update_episode_as_downloaded
+2021-10-06 10:52:12 ERROR    test1
+2021-10-06 10:52:12 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:52:34 ERROR    add_new_episode
+2021-10-06 10:52:34 ERROR    test1
+2021-10-06 10:52:34 ERROR    'dict' object has no attribute 'add'
+2021-10-06 10:52:34 ERROR    get_all_episodes
+2021-10-06 10:52:34 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:52:34 ERROR    get_episode_by_id
+2021-10-06 10:52:34 ERROR    1
+2021-10-06 10:52:34 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:52:34 ERROR    get_episode_by_podcast_id
+2021-10-06 10:52:34 ERROR    1
+2021-10-06 10:52:34 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:52:34 ERROR    update_episode_as_downloaded
+2021-10-06 10:52:34 ERROR    test1
+2021-10-06 10:52:34 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:53:08 ERROR    add_new_episode
+2021-10-06 10:53:08 ERROR    test1
+2021-10-06 10:53:08 ERROR    'dict' object has no attribute 'add'
+2021-10-06 10:53:08 ERROR    get_all_episodes
+2021-10-06 10:53:08 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:53:08 ERROR    get_episode_by_id
+2021-10-06 10:53:08 ERROR    1
+2021-10-06 10:53:08 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:53:08 ERROR    get_episode_by_podcast_id
+2021-10-06 10:53:08 ERROR    1
+2021-10-06 10:53:08 ERROR    'dict' object has no attribute 'query'
+2021-10-06 10:53:09 ERROR    update_episode_as_downloaded
+2021-10-06 10:53:09 ERROR    test1
+2021-10-06 10:53:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:04:20 ERROR    add_new_episode
+2021-10-06 12:04:20 ERROR    test1
+2021-10-06 12:04:20 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:04:20 ERROR    get_all_episodes
+2021-10-06 12:04:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:04:20 ERROR    get_episode_by_id
+2021-10-06 12:04:20 ERROR    1
+2021-10-06 12:04:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:04:20 ERROR    get_episode_by_podcast_id
+2021-10-06 12:04:20 ERROR    1
+2021-10-06 12:04:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:04:20 ERROR    update_episode_as_downloaded
+2021-10-06 12:04:20 ERROR    test1
+2021-10-06 12:04:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:04:37 ERROR    add_new_episode
+2021-10-06 12:04:37 ERROR    test1
+2021-10-06 12:04:37 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:04:37 ERROR    get_all_episodes
+2021-10-06 12:04:37 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:04:37 ERROR    get_episode_by_id
+2021-10-06 12:04:37 ERROR    1
+2021-10-06 12:04:37 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:04:37 ERROR    get_episode_by_podcast_id
+2021-10-06 12:04:37 ERROR    1
+2021-10-06 12:04:37 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:04:37 ERROR    update_episode_as_downloaded
+2021-10-06 12:04:37 ERROR    test1
+2021-10-06 12:04:37 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:06:48 ERROR    add_new_episode
+2021-10-06 12:06:48 ERROR    test1
+2021-10-06 12:06:48 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:06:48 ERROR    get_all_episodes
+2021-10-06 12:06:48 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:06:48 ERROR    get_episode_by_id
+2021-10-06 12:06:48 ERROR    1
+2021-10-06 12:06:48 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:06:48 ERROR    get_episode_by_podcast_id
+2021-10-06 12:06:48 ERROR    1
+2021-10-06 12:06:48 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:06:48 ERROR    update_episode_as_downloaded
+2021-10-06 12:06:48 ERROR    test1
+2021-10-06 12:06:48 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:29 ERROR    add_new_episode
+2021-10-06 12:08:29 ERROR    test1
+2021-10-06 12:08:29 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:08:29 ERROR    get_all_episodes
+2021-10-06 12:08:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:29 ERROR    get_episode_by_id
+2021-10-06 12:08:29 ERROR    1
+2021-10-06 12:08:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:29 ERROR    get_episode_by_podcast_id
+2021-10-06 12:08:29 ERROR    1
+2021-10-06 12:08:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:29 ERROR    update_episode_as_downloaded
+2021-10-06 12:08:29 ERROR    test1
+2021-10-06 12:08:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:50 ERROR    add_new_episode
+2021-10-06 12:08:50 ERROR    test1
+2021-10-06 12:08:50 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:08:50 ERROR    get_all_episodes
+2021-10-06 12:08:50 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:50 ERROR    get_episode_by_id
+2021-10-06 12:08:50 ERROR    1
+2021-10-06 12:08:50 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:50 ERROR    get_episode_by_podcast_id
+2021-10-06 12:08:50 ERROR    1
+2021-10-06 12:08:50 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:50 ERROR    update_episode_as_downloaded
+2021-10-06 12:08:50 ERROR    test1
+2021-10-06 12:08:50 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:08:50 INFO     test1
+2021-10-06 12:09:02 ERROR    add_new_episode
+2021-10-06 12:09:02 ERROR    test1
+2021-10-06 12:09:02 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:09:02 ERROR    get_all_episodes
+2021-10-06 12:09:02 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:02 ERROR    get_episode_by_id
+2021-10-06 12:09:02 ERROR    1
+2021-10-06 12:09:02 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:02 ERROR    get_episode_by_podcast_id
+2021-10-06 12:09:02 ERROR    1
+2021-10-06 12:09:02 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:02 ERROR    update_episode_as_downloaded
+2021-10-06 12:09:02 ERROR    test1
+2021-10-06 12:09:02 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:19 ERROR    add_new_episode
+2021-10-06 12:09:19 ERROR    test1
+2021-10-06 12:09:19 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:09:19 ERROR    get_all_episodes
+2021-10-06 12:09:19 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:19 ERROR    get_episode_by_id
+2021-10-06 12:09:19 ERROR    1
+2021-10-06 12:09:19 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:19 ERROR    get_episode_by_podcast_id
+2021-10-06 12:09:19 ERROR    1
+2021-10-06 12:09:19 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:19 ERROR    update_episode_as_downloaded
+2021-10-06 12:09:19 ERROR    test1
+2021-10-06 12:09:19 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:19 INFO     1
+2021-10-06 12:09:44 ERROR    add_new_episode
+2021-10-06 12:09:44 ERROR    test1
+2021-10-06 12:09:44 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:09:44 ERROR    get_all_episodes
+2021-10-06 12:09:44 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:44 ERROR    get_episode_by_id
+2021-10-06 12:09:44 ERROR    1
+2021-10-06 12:09:44 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:44 ERROR    get_episode_by_podcast_id
+2021-10-06 12:09:44 ERROR    1
+2021-10-06 12:09:44 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:44 INFO     [<sqlite_database_creation.Episode object at 0x7f94e4c22e50>, <sqlite_database_creation.Episode object at 0x7f94e4c22f70>]
+2021-10-06 12:09:44 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:09:44 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:44 ERROR    update_episode_as_downloaded
+2021-10-06 12:09:44 ERROR    test1
+2021-10-06 12:09:44 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:09:44 INFO     1
+2021-10-06 12:10:41 ERROR    add_new_episode
+2021-10-06 12:10:41 ERROR    test1
+2021-10-06 12:10:41 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:10:41 ERROR    get_all_episodes
+2021-10-06 12:10:41 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:10:42 ERROR    get_episode_by_id
+2021-10-06 12:10:42 ERROR    1
+2021-10-06 12:10:42 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:10:42 ERROR    get_episode_by_podcast_id
+2021-10-06 12:10:42 ERROR    1
+2021-10-06 12:10:42 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:10:42 INFO     [<sqlite_database_creation.Episode object at 0x7f635eb18dc0>, <sqlite_database_creation.Episode object at 0x7f635eb18ee0>]
+2021-10-06 12:10:42 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:10:42 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:10:42 ERROR    update_episode_as_downloaded
+2021-10-06 12:10:42 ERROR    test1
+2021-10-06 12:10:42 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:12:59 ERROR    add_new_episode
+2021-10-06 12:12:59 ERROR    test1
+2021-10-06 12:12:59 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:12:59 ERROR    get_all_episodes
+2021-10-06 12:12:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:12:59 ERROR    get_episode_by_id
+2021-10-06 12:12:59 ERROR    1
+2021-10-06 12:12:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:12:59 ERROR    get_episode_by_podcast_id
+2021-10-06 12:12:59 ERROR    1
+2021-10-06 12:12:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:12:59 INFO     [<sqlite_database_creation.Episode object at 0x7f9854db8e20>, <sqlite_database_creation.Episode object at 0x7f9854db8f40>]
+2021-10-06 12:12:59 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:12:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:12:59 ERROR    update_episode_as_downloaded
+2021-10-06 12:12:59 ERROR    test1
+2021-10-06 12:12:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:12:59 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:12:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:10 ERROR    add_new_episode
+2021-10-06 12:17:10 ERROR    test1
+2021-10-06 12:17:10 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:17:10 ERROR    get_all_episodes
+2021-10-06 12:17:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:10 ERROR    get_episode_by_id
+2021-10-06 12:17:10 ERROR    1
+2021-10-06 12:17:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:10 ERROR    get_episode_by_podcast_id
+2021-10-06 12:17:10 ERROR    1
+2021-10-06 12:17:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:10 INFO     [<sqlite_database_creation.Episode object at 0x7f4de2b2ee20>, <sqlite_database_creation.Episode object at 0x7f4de2b2ef40>]
+2021-10-06 12:17:10 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:17:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:10 ERROR    update_episode_as_downloaded
+2021-10-06 12:17:10 ERROR    test1
+2021-10-06 12:17:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:10 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:17:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:30 ERROR    add_new_episode
+2021-10-06 12:17:30 ERROR    test1
+2021-10-06 12:17:30 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:17:30 ERROR    get_all_episodes
+2021-10-06 12:17:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:30 ERROR    get_episode_by_id
+2021-10-06 12:17:30 ERROR    1
+2021-10-06 12:17:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:30 ERROR    get_episode_by_podcast_id
+2021-10-06 12:17:30 ERROR    1
+2021-10-06 12:17:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:30 INFO     [<sqlite_database_creation.Episode object at 0x7f8f8a3a3e80>, <sqlite_database_creation.Episode object at 0x7f8f8a3a3fa0>]
+2021-10-06 12:17:30 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:17:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:30 ERROR    update_episode_as_downloaded
+2021-10-06 12:17:30 ERROR    test1
+2021-10-06 12:17:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:17:30 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:17:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:18:00 ERROR    add_new_episode
+2021-10-06 12:18:00 ERROR    test1
+2021-10-06 12:18:00 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:18:00 ERROR    get_all_episodes
+2021-10-06 12:18:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:18:00 ERROR    get_episode_by_id
+2021-10-06 12:18:00 ERROR    1
+2021-10-06 12:18:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:18:00 ERROR    get_episode_by_podcast_id
+2021-10-06 12:18:00 ERROR    1
+2021-10-06 12:18:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:18:00 INFO     [<sqlite_database_creation.Episode object at 0x7f96319bceb0>, <sqlite_database_creation.Episode object at 0x7f96319bcfd0>]
+2021-10-06 12:18:00 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:18:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:18:00 ERROR    update_episode_as_downloaded
+2021-10-06 12:18:00 ERROR    test1
+2021-10-06 12:18:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:18:00 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:18:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:20 ERROR    add_new_episode
+2021-10-06 12:19:20 ERROR    test1
+2021-10-06 12:19:20 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:19:20 ERROR    get_all_episodes
+2021-10-06 12:19:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:20 ERROR    get_episode_by_id
+2021-10-06 12:19:20 ERROR    1
+2021-10-06 12:19:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:20 ERROR    get_episode_by_podcast_id
+2021-10-06 12:19:20 ERROR    1
+2021-10-06 12:19:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:20 INFO     [<sqlite_database_creation.Episode object at 0x7f381d0cbd90>, <sqlite_database_creation.Episode object at 0x7f381d0cbeb0>]
+2021-10-06 12:19:20 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:19:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:20 ERROR    update_episode_as_downloaded
+2021-10-06 12:19:20 ERROR    test1
+2021-10-06 12:19:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:20 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:19:20 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:49 ERROR    add_new_episode
+2021-10-06 12:19:49 ERROR    test1
+2021-10-06 12:19:49 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:19:49 ERROR    get_all_episodes
+2021-10-06 12:19:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:49 ERROR    get_episode_by_id
+2021-10-06 12:19:49 ERROR    1
+2021-10-06 12:19:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:49 ERROR    get_episode_by_podcast_id
+2021-10-06 12:19:49 ERROR    1
+2021-10-06 12:19:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:49 INFO     [<sqlite_database_creation.Episode object at 0x7f15d46a3dc0>, <sqlite_database_creation.Episode object at 0x7f15d46a3ee0>]
+2021-10-06 12:19:49 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:19:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:49 ERROR    update_episode_as_downloaded
+2021-10-06 12:19:49 ERROR    test1
+2021-10-06 12:19:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:19:49 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:19:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:22 ERROR    add_new_episode
+2021-10-06 12:20:22 ERROR    test1
+2021-10-06 12:20:22 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:20:22 ERROR    get_all_episodes
+2021-10-06 12:20:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:22 ERROR    get_episode_by_id
+2021-10-06 12:20:22 ERROR    1
+2021-10-06 12:20:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:22 ERROR    get_episode_by_podcast_id
+2021-10-06 12:20:22 ERROR    1
+2021-10-06 12:20:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:22 INFO     [<sqlite_database_creation.Episode object at 0x7f25fb88fdf0>, <sqlite_database_creation.Episode object at 0x7f25fb88ff10>]
+2021-10-06 12:20:22 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:20:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:22 ERROR    update_episode_as_downloaded
+2021-10-06 12:20:22 ERROR    test1
+2021-10-06 12:20:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:23 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:20:23 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:38 ERROR    add_new_episode
+2021-10-06 12:20:38 ERROR    test1
+2021-10-06 12:20:38 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:20:38 ERROR    get_all_episodes
+2021-10-06 12:20:38 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:38 ERROR    get_episode_by_id
+2021-10-06 12:20:38 ERROR    1
+2021-10-06 12:20:38 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:38 ERROR    get_episode_by_podcast_id
+2021-10-06 12:20:38 ERROR    1
+2021-10-06 12:20:38 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:38 INFO     [<sqlite_database_creation.Episode object at 0x7f3437c3ce50>, <sqlite_database_creation.Episode object at 0x7f3437c3cf70>]
+2021-10-06 12:20:38 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:20:38 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:38 ERROR    update_episode_as_downloaded
+2021-10-06 12:20:38 ERROR    test1
+2021-10-06 12:20:38 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:38 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:20:38 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:20:38 INFO     test3
+2021-10-06 12:22:10 ERROR    add_new_episode
+2021-10-06 12:22:10 ERROR    test1
+2021-10-06 12:22:10 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:22:10 ERROR    get_all_episodes
+2021-10-06 12:22:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:10 ERROR    get_episode_by_id
+2021-10-06 12:22:10 ERROR    1
+2021-10-06 12:22:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:10 ERROR    get_episode_by_podcast_id
+2021-10-06 12:22:10 ERROR    1
+2021-10-06 12:22:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:10 INFO     [<sqlite_database_creation.Episode object at 0x7f1da7d8ce50>, <sqlite_database_creation.Episode object at 0x7f1da7d8cf70>]
+2021-10-06 12:22:10 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:22:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:10 ERROR    update_episode_as_downloaded
+2021-10-06 12:22:10 ERROR    test1
+2021-10-06 12:22:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:10 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:22:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:45 ERROR    add_new_episode
+2021-10-06 12:22:45 ERROR    test1
+2021-10-06 12:22:45 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:22:45 ERROR    get_all_episodes
+2021-10-06 12:22:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:45 ERROR    get_episode_by_id
+2021-10-06 12:22:45 ERROR    1
+2021-10-06 12:22:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:45 ERROR    get_episode_by_podcast_id
+2021-10-06 12:22:45 ERROR    1
+2021-10-06 12:22:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:45 INFO     [<sqlite_database_creation.Episode object at 0x7f5bf6fe1df0>, <sqlite_database_creation.Episode object at 0x7f5bf6fe1f10>]
+2021-10-06 12:22:45 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:22:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:45 ERROR    update_episode_as_downloaded
+2021-10-06 12:22:45 ERROR    test1
+2021-10-06 12:22:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:22:45 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:22:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:25:03 ERROR    add_new_episode
+2021-10-06 12:25:03 ERROR    test1
+2021-10-06 12:25:03 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:25:03 ERROR    get_all_episodes
+2021-10-06 12:25:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:25:03 ERROR    get_episode_by_id
+2021-10-06 12:25:03 ERROR    1
+2021-10-06 12:25:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:25:03 ERROR    get_episode_by_podcast_id
+2021-10-06 12:25:03 ERROR    1
+2021-10-06 12:25:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:25:03 INFO     [<sqlite_database_creation.Episode object at 0x7fcfadcdee50>, <sqlite_database_creation.Episode object at 0x7fcfadcdef70>]
+2021-10-06 12:25:03 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:25:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:25:03 ERROR    update_episode_as_downloaded
+2021-10-06 12:25:03 ERROR    test1
+2021-10-06 12:25:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:25:03 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:25:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:00 ERROR    add_new_episode
+2021-10-06 12:26:00 ERROR    test1
+2021-10-06 12:26:00 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:26:00 ERROR    get_all_episodes
+2021-10-06 12:26:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:00 ERROR    get_episode_by_id
+2021-10-06 12:26:00 ERROR    1
+2021-10-06 12:26:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:00 ERROR    get_episode_by_podcast_id
+2021-10-06 12:26:00 ERROR    1
+2021-10-06 12:26:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:00 INFO     [<sqlite_database_creation.Episode object at 0x7f95d93d6e50>, <sqlite_database_creation.Episode object at 0x7f95d93d6f70>]
+2021-10-06 12:26:00 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:26:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:00 ERROR    update_episode_as_downloaded
+2021-10-06 12:26:00 ERROR    test1
+2021-10-06 12:26:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:00 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:26:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:30 ERROR    add_new_episode
+2021-10-06 12:26:30 ERROR    test1
+2021-10-06 12:26:30 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:26:30 ERROR    get_all_episodes
+2021-10-06 12:26:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:30 ERROR    get_episode_by_id
+2021-10-06 12:26:30 ERROR    1
+2021-10-06 12:26:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:30 ERROR    get_episode_by_podcast_id
+2021-10-06 12:26:30 ERROR    1
+2021-10-06 12:26:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:30 INFO     [<sqlite_database_creation.Episode object at 0x7f01bedb8e50>, <sqlite_database_creation.Episode object at 0x7f01bedb8f70>]
+2021-10-06 12:26:30 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:26:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:30 ERROR    update_episode_as_downloaded
+2021-10-06 12:26:30 ERROR    test1
+2021-10-06 12:26:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:30 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:26:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:26:30 INFO     test1
+2021-10-06 12:26:30 INFO     test2
+2021-10-06 12:26:30 INFO     test4
+2021-10-06 12:27:08 ERROR    add_new_episode
+2021-10-06 12:27:08 ERROR    test1
+2021-10-06 12:27:08 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:27:08 ERROR    get_all_episodes
+2021-10-06 12:27:08 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:08 ERROR    get_episode_by_id
+2021-10-06 12:27:08 ERROR    1
+2021-10-06 12:27:08 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:08 ERROR    get_episode_by_podcast_id
+2021-10-06 12:27:08 ERROR    1
+2021-10-06 12:27:08 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:08 INFO     [<sqlite_database_creation.Episode object at 0x7f48e49dde50>, <sqlite_database_creation.Episode object at 0x7f48e49ddf70>]
+2021-10-06 12:27:08 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:27:08 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:09 ERROR    update_episode_as_downloaded
+2021-10-06 12:27:09 ERROR    test1
+2021-10-06 12:27:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:09 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:27:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:56 ERROR    add_new_episode
+2021-10-06 12:27:56 ERROR    test1
+2021-10-06 12:27:56 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:27:56 ERROR    get_all_episodes
+2021-10-06 12:27:56 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:56 ERROR    get_episode_by_id
+2021-10-06 12:27:56 ERROR    1
+2021-10-06 12:27:56 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:56 ERROR    get_episode_by_podcast_id
+2021-10-06 12:27:56 ERROR    1
+2021-10-06 12:27:56 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:56 INFO     [<sqlite_database_creation.Episode object at 0x7ff1adfd1e50>, <sqlite_database_creation.Episode object at 0x7ff1adfd1f70>]
+2021-10-06 12:27:56 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:27:56 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:56 ERROR    update_episode_as_downloaded
+2021-10-06 12:27:56 ERROR    test1
+2021-10-06 12:27:56 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:27:56 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:27:56 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:29:51 ERROR    add_new_episode
+2021-10-06 12:29:51 ERROR    test1
+2021-10-06 12:29:51 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:29:51 ERROR    get_all_episodes
+2021-10-06 12:29:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:29:51 ERROR    get_episode_by_id
+2021-10-06 12:29:51 ERROR    1
+2021-10-06 12:29:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:29:51 ERROR    get_episode_by_podcast_id
+2021-10-06 12:29:51 ERROR    1
+2021-10-06 12:29:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:29:51 INFO     [<sqlite_database_creation.Episode object at 0x7f0a82651e20>, <sqlite_database_creation.Episode object at 0x7f0a82651f40>]
+2021-10-06 12:29:51 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:29:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:29:52 ERROR    update_episode_as_downloaded
+2021-10-06 12:29:52 ERROR    test1
+2021-10-06 12:29:52 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:29:52 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:29:52 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:30:11 ERROR    add_new_episode
+2021-10-06 12:30:11 ERROR    test1
+2021-10-06 12:30:11 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:30:11 ERROR    get_all_episodes
+2021-10-06 12:30:11 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:30:11 ERROR    get_episode_by_id
+2021-10-06 12:30:11 ERROR    1
+2021-10-06 12:30:11 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:30:11 ERROR    get_episode_by_podcast_id
+2021-10-06 12:30:11 ERROR    1
+2021-10-06 12:30:11 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:30:11 INFO     [<sqlite_database_creation.Episode object at 0x7f71df14be80>, <sqlite_database_creation.Episode object at 0x7f71df14bfa0>]
+2021-10-06 12:30:11 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:30:11 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:30:11 ERROR    update_episode_as_downloaded
+2021-10-06 12:30:11 ERROR    test1
+2021-10-06 12:30:11 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:30:11 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:30:11 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:10 ERROR    add_new_episode
+2021-10-06 12:33:10 ERROR    test1
+2021-10-06 12:33:10 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:33:10 ERROR    get_all_episodes
+2021-10-06 12:33:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:10 ERROR    get_episode_by_id
+2021-10-06 12:33:10 ERROR    1
+2021-10-06 12:33:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:10 ERROR    get_episode_by_podcast_id
+2021-10-06 12:33:10 ERROR    1
+2021-10-06 12:33:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:10 INFO     [<sqlite_database_creation.Episode object at 0x7f5511da8e50>, <sqlite_database_creation.Episode object at 0x7f5511da8f70>]
+2021-10-06 12:33:10 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:33:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:10 ERROR    update_episode_as_downloaded
+2021-10-06 12:33:10 ERROR    test1
+2021-10-06 12:33:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:10 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:33:10 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:49 ERROR    add_new_episode
+2021-10-06 12:33:49 ERROR    test1
+2021-10-06 12:33:49 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:33:49 ERROR    get_all_episodes
+2021-10-06 12:33:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:49 ERROR    get_episode_by_id
+2021-10-06 12:33:49 ERROR    1
+2021-10-06 12:33:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:49 ERROR    get_episode_by_podcast_id
+2021-10-06 12:33:49 ERROR    1
+2021-10-06 12:33:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:49 INFO     [<sqlite_database_creation.Episode object at 0x7fc7758a4eb0>, <sqlite_database_creation.Episode object at 0x7fc7758a4fd0>]
+2021-10-06 12:33:49 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:33:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:49 ERROR    update_episode_as_downloaded
+2021-10-06 12:33:49 ERROR    test1
+2021-10-06 12:33:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:33:49 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:33:49 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:16 ERROR    add_new_episode
+2021-10-06 12:34:16 ERROR    test1
+2021-10-06 12:34:16 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:34:16 ERROR    get_all_episodes
+2021-10-06 12:34:16 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:16 ERROR    get_episode_by_id
+2021-10-06 12:34:16 ERROR    1
+2021-10-06 12:34:16 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:16 ERROR    get_episode_by_podcast_id
+2021-10-06 12:34:16 ERROR    1
+2021-10-06 12:34:16 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:16 INFO     [<sqlite_database_creation.Episode object at 0x7f3f8f493dc0>, <sqlite_database_creation.Episode object at 0x7f3f8f493ee0>]
+2021-10-06 12:34:16 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:34:16 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:16 ERROR    update_episode_as_downloaded
+2021-10-06 12:34:16 ERROR    test1
+2021-10-06 12:34:16 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:16 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:34:16 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:59 ERROR    add_new_episode
+2021-10-06 12:34:59 ERROR    test1
+2021-10-06 12:34:59 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:34:59 ERROR    get_all_episodes
+2021-10-06 12:34:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:59 ERROR    get_episode_by_id
+2021-10-06 12:34:59 ERROR    1
+2021-10-06 12:34:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:59 ERROR    get_episode_by_podcast_id
+2021-10-06 12:34:59 ERROR    1
+2021-10-06 12:34:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:59 INFO     [<sqlite_database_creation.Episode object at 0x7f83256b5df0>, <sqlite_database_creation.Episode object at 0x7f83256b5f10>]
+2021-10-06 12:34:59 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:34:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:59 ERROR    update_episode_as_downloaded
+2021-10-06 12:34:59 ERROR    test1
+2021-10-06 12:34:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:34:59 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:34:59 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:41 ERROR    add_new_episode
+2021-10-06 12:36:41 ERROR    test1
+2021-10-06 12:36:41 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:36:41 ERROR    get_all_episodes
+2021-10-06 12:36:41 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:41 ERROR    get_episode_by_id
+2021-10-06 12:36:41 ERROR    1
+2021-10-06 12:36:41 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:41 ERROR    get_episode_by_podcast_id
+2021-10-06 12:36:41 ERROR    1
+2021-10-06 12:36:41 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:41 INFO     [<sqlite_database_creation.Episode object at 0x7fe7fa7c6e50>, <sqlite_database_creation.Episode object at 0x7fe7fa7c6f70>]
+2021-10-06 12:36:41 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:36:41 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:41 ERROR    update_episode_as_downloaded
+2021-10-06 12:36:41 ERROR    test1
+2021-10-06 12:36:41 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:41 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:36:41 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:41 ERROR    delete_episodes_by_podcast_id
+2021-10-06 12:36:41 ERROR    1
+2021-10-06 12:36:41 ERROR    'int' object has no attribute 'podcast_id'
+2021-10-06 12:36:57 ERROR    add_new_episode
+2021-10-06 12:36:57 ERROR    test1
+2021-10-06 12:36:57 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:36:57 ERROR    get_all_episodes
+2021-10-06 12:36:57 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:57 ERROR    get_episode_by_id
+2021-10-06 12:36:57 ERROR    1
+2021-10-06 12:36:57 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:57 ERROR    get_episode_by_podcast_id
+2021-10-06 12:36:57 ERROR    1
+2021-10-06 12:36:57 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:57 INFO     [<sqlite_database_creation.Episode object at 0x7fbb60eade20>, <sqlite_database_creation.Episode object at 0x7fbb60eadf40>]
+2021-10-06 12:36:57 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:36:57 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:57 ERROR    update_episode_as_downloaded
+2021-10-06 12:36:57 ERROR    test1
+2021-10-06 12:36:57 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:57 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:36:57 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:36:57 ERROR    delete_episodes_by_podcast_id
+2021-10-06 12:36:57 ERROR    1
+2021-10-06 12:36:57 ERROR    'int' object has no attribute 'podcast_id'
+2021-10-06 12:37:25 ERROR    add_new_episode
+2021-10-06 12:37:25 ERROR    test1
+2021-10-06 12:37:25 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:37:25 ERROR    get_all_episodes
+2021-10-06 12:37:25 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:37:25 ERROR    get_episode_by_id
+2021-10-06 12:37:25 ERROR    1
+2021-10-06 12:37:25 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:37:25 ERROR    get_episode_by_podcast_id
+2021-10-06 12:37:25 ERROR    1
+2021-10-06 12:37:25 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:37:25 INFO     [<sqlite_database_creation.Episode object at 0x7f7bed25be50>, <sqlite_database_creation.Episode object at 0x7f7bed25bf70>]
+2021-10-06 12:37:25 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:37:25 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:37:25 ERROR    update_episode_as_downloaded
+2021-10-06 12:37:25 ERROR    test1
+2021-10-06 12:37:25 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:37:25 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:37:25 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:37:25 ERROR    delete_episodes_by_podcast_id
+2021-10-06 12:37:25 ERROR    1
+2021-10-06 12:37:25 ERROR    'int' object has no attribute 'podcast_id'
+2021-10-06 12:38:26 ERROR    add_new_episode
+2021-10-06 12:38:26 ERROR    test1
+2021-10-06 12:38:26 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:38:26 ERROR    get_all_episodes
+2021-10-06 12:38:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:26 ERROR    get_episode_by_id
+2021-10-06 12:38:26 ERROR    1
+2021-10-06 12:38:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:26 ERROR    get_episode_by_podcast_id
+2021-10-06 12:38:26 ERROR    1
+2021-10-06 12:38:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:26 INFO     [<sqlite_database_creation.Episode object at 0x7fcecdb82d90>, <sqlite_database_creation.Episode object at 0x7fcecdb82eb0>]
+2021-10-06 12:38:26 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:38:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:26 ERROR    update_episode_as_downloaded
+2021-10-06 12:38:26 ERROR    test1
+2021-10-06 12:38:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:26 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:38:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:26 INFO     2
+2021-10-06 12:38:51 ERROR    add_new_episode
+2021-10-06 12:38:51 ERROR    test1
+2021-10-06 12:38:51 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:38:51 ERROR    get_all_episodes
+2021-10-06 12:38:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:51 ERROR    get_episode_by_id
+2021-10-06 12:38:51 ERROR    1
+2021-10-06 12:38:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:51 ERROR    get_episode_by_podcast_id
+2021-10-06 12:38:51 ERROR    1
+2021-10-06 12:38:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:51 INFO     [<sqlite_database_creation.Episode object at 0x7fe84b62fdf0>, <sqlite_database_creation.Episode object at 0x7fe84b62ff10>]
+2021-10-06 12:38:51 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:38:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:51 ERROR    update_episode_as_downloaded
+2021-10-06 12:38:51 ERROR    test1
+2021-10-06 12:38:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:51 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:38:51 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:38:51 INFO     result
+2021-10-06 12:38:51 INFO     2
+2021-10-06 12:39:01 ERROR    add_new_episode
+2021-10-06 12:39:01 ERROR    test1
+2021-10-06 12:39:01 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:39:01 ERROR    get_all_episodes
+2021-10-06 12:39:01 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:01 ERROR    get_episode_by_id
+2021-10-06 12:39:01 ERROR    1
+2021-10-06 12:39:01 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:01 ERROR    get_episode_by_podcast_id
+2021-10-06 12:39:01 ERROR    1
+2021-10-06 12:39:01 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:01 INFO     [<sqlite_database_creation.Episode object at 0x7f89a626be80>, <sqlite_database_creation.Episode object at 0x7f89a626bfa0>]
+2021-10-06 12:39:01 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:39:01 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:01 ERROR    update_episode_as_downloaded
+2021-10-06 12:39:01 ERROR    test1
+2021-10-06 12:39:01 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:01 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:39:01 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:01 INFO     result
+2021-10-06 12:39:01 INFO     2
+2021-10-06 12:39:23 ERROR    add_new_episode
+2021-10-06 12:39:23 ERROR    test1
+2021-10-06 12:39:23 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:39:23 ERROR    get_all_episodes
+2021-10-06 12:39:23 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:23 ERROR    get_episode_by_id
+2021-10-06 12:39:23 ERROR    1
+2021-10-06 12:39:23 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:23 ERROR    get_episode_by_podcast_id
+2021-10-06 12:39:23 ERROR    1
+2021-10-06 12:39:23 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:23 INFO     [<sqlite_database_creation.Episode object at 0x7effdd591eb0>, <sqlite_database_creation.Episode object at 0x7effdd591fd0>]
+2021-10-06 12:39:23 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:39:23 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:23 ERROR    update_episode_as_downloaded
+2021-10-06 12:39:23 ERROR    test1
+2021-10-06 12:39:23 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:23 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:39:23 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:33 ERROR    add_new_episode
+2021-10-06 12:39:33 ERROR    test1
+2021-10-06 12:39:33 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:39:33 ERROR    get_all_episodes
+2021-10-06 12:39:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:33 ERROR    get_episode_by_id
+2021-10-06 12:39:33 ERROR    1
+2021-10-06 12:39:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:33 ERROR    get_episode_by_podcast_id
+2021-10-06 12:39:33 ERROR    1
+2021-10-06 12:39:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:33 INFO     [<sqlite_database_creation.Episode object at 0x7f3d2d5c1eb0>, <sqlite_database_creation.Episode object at 0x7f3d2d5c1fd0>]
+2021-10-06 12:39:33 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:39:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:33 ERROR    update_episode_as_downloaded
+2021-10-06 12:39:33 ERROR    test1
+2021-10-06 12:39:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:33 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:39:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:39:33 INFO     result
+2021-10-06 12:39:33 INFO     2
+2021-10-06 12:40:05 ERROR    add_new_episode
+2021-10-06 12:40:05 ERROR    test1
+2021-10-06 12:40:05 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:40:05 ERROR    get_all_episodes
+2021-10-06 12:40:05 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:05 ERROR    get_episode_by_id
+2021-10-06 12:40:05 ERROR    1
+2021-10-06 12:40:05 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:05 ERROR    get_episode_by_podcast_id
+2021-10-06 12:40:05 ERROR    1
+2021-10-06 12:40:05 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:05 INFO     [<sqlite_database_creation.Episode object at 0x7f2bac5e8df0>, <sqlite_database_creation.Episode object at 0x7f2bac5e8f10>]
+2021-10-06 12:40:05 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:40:05 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:05 ERROR    update_episode_as_downloaded
+2021-10-06 12:40:05 ERROR    test1
+2021-10-06 12:40:05 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:05 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:40:05 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:05 INFO     result
+2021-10-06 12:40:05 INFO     2
+2021-10-06 12:40:43 ERROR    add_new_episode
+2021-10-06 12:40:43 ERROR    test1
+2021-10-06 12:40:43 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:40:43 ERROR    get_all_episodes
+2021-10-06 12:40:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:43 ERROR    get_episode_by_id
+2021-10-06 12:40:43 ERROR    1
+2021-10-06 12:40:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:43 ERROR    get_episode_by_podcast_id
+2021-10-06 12:40:43 ERROR    1
+2021-10-06 12:40:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:43 INFO     [<sqlite_database_creation.Episode object at 0x7f15ac526e50>, <sqlite_database_creation.Episode object at 0x7f15ac526f70>]
+2021-10-06 12:40:43 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:40:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:44 ERROR    update_episode_as_downloaded
+2021-10-06 12:40:44 ERROR    test1
+2021-10-06 12:40:44 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:44 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:40:44 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:40:44 INFO     result
+2021-10-06 12:40:44 INFO     2
+2021-10-06 12:41:15 ERROR    add_new_episode
+2021-10-06 12:41:15 ERROR    test1
+2021-10-06 12:41:15 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:41:15 ERROR    get_all_episodes
+2021-10-06 12:41:15 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:15 ERROR    get_episode_by_id
+2021-10-06 12:41:15 ERROR    1
+2021-10-06 12:41:15 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:15 ERROR    get_episode_by_podcast_id
+2021-10-06 12:41:15 ERROR    1
+2021-10-06 12:41:15 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:15 INFO     [<sqlite_database_creation.Episode object at 0x7f8c1691ce80>, <sqlite_database_creation.Episode object at 0x7f8c1691cfa0>]
+2021-10-06 12:41:15 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:41:15 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:15 ERROR    update_episode_as_downloaded
+2021-10-06 12:41:15 ERROR    test1
+2021-10-06 12:41:15 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:15 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:41:15 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:15 INFO     result
+2021-10-06 12:41:15 INFO     2
+2021-10-06 12:41:43 ERROR    add_new_episode
+2021-10-06 12:41:43 ERROR    test1
+2021-10-06 12:41:43 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:41:43 ERROR    get_all_episodes
+2021-10-06 12:41:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:43 ERROR    get_episode_by_id
+2021-10-06 12:41:43 ERROR    1
+2021-10-06 12:41:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:43 ERROR    get_episode_by_podcast_id
+2021-10-06 12:41:43 ERROR    1
+2021-10-06 12:41:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:43 INFO     [<sqlite_database_creation.Episode object at 0x7ff9d2852eb0>, <sqlite_database_creation.Episode object at 0x7ff9d2852fd0>]
+2021-10-06 12:41:43 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:41:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:43 ERROR    update_episode_as_downloaded
+2021-10-06 12:41:43 ERROR    test1
+2021-10-06 12:41:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:43 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:41:43 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:41:43 INFO     result
+2021-10-06 12:41:43 INFO     2
+2021-10-06 12:41:43 INFO     numEpisodes
+2021-10-06 12:41:43 INFO     [<sqlite_database_creation.Episode object at 0x7ff9d2852be0>]
+2021-10-06 12:42:00 ERROR    add_new_episode
+2021-10-06 12:42:00 ERROR    test1
+2021-10-06 12:42:00 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:42:00 ERROR    get_all_episodes
+2021-10-06 12:42:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:00 ERROR    get_episode_by_id
+2021-10-06 12:42:00 ERROR    1
+2021-10-06 12:42:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:00 ERROR    get_episode_by_podcast_id
+2021-10-06 12:42:00 ERROR    1
+2021-10-06 12:42:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:00 INFO     [<sqlite_database_creation.Episode object at 0x7fca2ecebe80>, <sqlite_database_creation.Episode object at 0x7fca2ecebfa0>]
+2021-10-06 12:42:00 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:42:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:00 ERROR    update_episode_as_downloaded
+2021-10-06 12:42:00 ERROR    test1
+2021-10-06 12:42:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:00 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:42:00 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:00 INFO     numEpisodes
+2021-10-06 12:42:00 INFO     [<sqlite_database_creation.Episode object at 0x7fca2ecebbb0>]
+2021-10-06 12:42:09 ERROR    add_new_episode
+2021-10-06 12:42:09 ERROR    test1
+2021-10-06 12:42:09 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:42:09 ERROR    get_all_episodes
+2021-10-06 12:42:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:09 ERROR    get_episode_by_id
+2021-10-06 12:42:09 ERROR    1
+2021-10-06 12:42:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:09 ERROR    get_episode_by_podcast_id
+2021-10-06 12:42:09 ERROR    1
+2021-10-06 12:42:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:09 INFO     [<sqlite_database_creation.Episode object at 0x7f3e60919e50>, <sqlite_database_creation.Episode object at 0x7f3e60919f70>]
+2021-10-06 12:42:09 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:42:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:09 ERROR    update_episode_as_downloaded
+2021-10-06 12:42:09 ERROR    test1
+2021-10-06 12:42:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:42:09 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:42:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:43:29 ERROR    add_new_episode
+2021-10-06 12:43:29 ERROR    test1
+2021-10-06 12:43:29 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:43:29 ERROR    get_all_episodes
+2021-10-06 12:43:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:43:29 ERROR    get_episode_by_id
+2021-10-06 12:43:29 ERROR    1
+2021-10-06 12:43:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:43:29 ERROR    get_episode_by_podcast_id
+2021-10-06 12:43:29 ERROR    1
+2021-10-06 12:43:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:43:29 INFO     [<sqlite_database_creation.Episode object at 0x7f92e764ce80>, <sqlite_database_creation.Episode object at 0x7f92e764cfa0>]
+2021-10-06 12:43:29 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:43:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:43:29 ERROR    update_episode_as_downloaded
+2021-10-06 12:43:29 ERROR    test1
+2021-10-06 12:43:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:43:29 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:43:29 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:26 ERROR    add_new_episode
+2021-10-06 12:47:26 ERROR    test1
+2021-10-06 12:47:26 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:47:26 ERROR    get_all_episodes
+2021-10-06 12:47:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:26 ERROR    get_episode_by_id
+2021-10-06 12:47:26 ERROR    1
+2021-10-06 12:47:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:26 ERROR    get_episode_by_podcast_id
+2021-10-06 12:47:26 ERROR    1
+2021-10-06 12:47:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:26 INFO     [<sqlite_database_creation.Episode object at 0x7f78f0042e80>, <sqlite_database_creation.Episode object at 0x7f78f0042fa0>]
+2021-10-06 12:47:26 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:47:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:26 ERROR    update_episode_as_downloaded
+2021-10-06 12:47:26 ERROR    test1
+2021-10-06 12:47:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:26 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:47:26 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:40 ERROR    add_new_episode
+2021-10-06 12:47:40 ERROR    test1
+2021-10-06 12:47:40 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:47:40 ERROR    get_all_episodes
+2021-10-06 12:47:40 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:40 ERROR    get_episode_by_id
+2021-10-06 12:47:40 ERROR    1
+2021-10-06 12:47:40 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:40 ERROR    get_episode_by_podcast_id
+2021-10-06 12:47:40 ERROR    1
+2021-10-06 12:47:40 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:40 INFO     [<sqlite_database_creation.Episode object at 0x7f5c4dfcfe80>, <sqlite_database_creation.Episode object at 0x7f5c4dfcffa0>]
+2021-10-06 12:47:40 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:47:40 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:40 ERROR    update_episode_as_downloaded
+2021-10-06 12:47:40 ERROR    test1
+2021-10-06 12:47:40 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:40 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:47:40 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:45 ERROR    add_new_episode
+2021-10-06 12:47:45 ERROR    test1
+2021-10-06 12:47:45 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:47:45 ERROR    get_all_episodes
+2021-10-06 12:47:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:45 ERROR    get_episode_by_id
+2021-10-06 12:47:45 ERROR    1
+2021-10-06 12:47:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:45 ERROR    get_episode_by_podcast_id
+2021-10-06 12:47:45 ERROR    1
+2021-10-06 12:47:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:45 INFO     [<sqlite_database_creation.Episode object at 0x7fdfd0c29eb0>, <sqlite_database_creation.Episode object at 0x7fdfd0c29fd0>]
+2021-10-06 12:47:45 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:47:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:45 ERROR    update_episode_as_downloaded
+2021-10-06 12:47:45 ERROR    test1
+2021-10-06 12:47:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:47:45 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:47:45 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:52:36 ERROR    add_new_episode
+2021-10-06 12:52:36 ERROR    test1
+2021-10-06 12:52:36 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:52:36 ERROR    get_all_episodes
+2021-10-06 12:52:36 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:52:36 ERROR    get_episode_by_id
+2021-10-06 12:52:36 ERROR    1
+2021-10-06 12:52:36 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:52:36 ERROR    get_episode_by_podcast_id
+2021-10-06 12:52:36 ERROR    1
+2021-10-06 12:52:36 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:52:36 INFO     [<sqlite_database_creation.Episode object at 0x7f37e1a87e50>, <sqlite_database_creation.Episode object at 0x7f37e1a87f70>]
+2021-10-06 12:52:36 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:52:36 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:52:36 ERROR    update_episode_as_downloaded
+2021-10-06 12:52:36 ERROR    test1
+2021-10-06 12:52:36 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:52:36 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:52:36 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:53:03 ERROR    add_new_episode
+2021-10-06 12:53:03 ERROR    test1
+2021-10-06 12:53:03 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:53:03 ERROR    get_all_episodes
+2021-10-06 12:53:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:53:03 ERROR    get_episode_by_id
+2021-10-06 12:53:03 ERROR    1
+2021-10-06 12:53:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:53:03 ERROR    get_episode_by_podcast_id
+2021-10-06 12:53:03 ERROR    1
+2021-10-06 12:53:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:53:03 INFO     [<sqlite_database_creation.Episode object at 0x7f88bdcbde50>, <sqlite_database_creation.Episode object at 0x7f88bdcbdf70>]
+2021-10-06 12:53:03 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:53:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:53:03 ERROR    update_episode_as_downloaded
+2021-10-06 12:53:03 ERROR    test1
+2021-10-06 12:53:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:53:03 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:53:03 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:04 ERROR    add_new_episode
+2021-10-06 12:55:04 ERROR    test1
+2021-10-06 12:55:04 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:55:04 ERROR    get_all_episodes
+2021-10-06 12:55:04 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:04 ERROR    get_episode_by_id
+2021-10-06 12:55:04 ERROR    1
+2021-10-06 12:55:04 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:04 ERROR    get_episode_by_podcast_id
+2021-10-06 12:55:04 ERROR    1
+2021-10-06 12:55:04 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:04 INFO     [<sqlite_database_creation.Episode object at 0x7f3aedd51e50>, <sqlite_database_creation.Episode object at 0x7f3aedd51f70>]
+2021-10-06 12:55:04 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:55:04 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:04 ERROR    update_episode_as_downloaded
+2021-10-06 12:55:04 ERROR    test1
+2021-10-06 12:55:04 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:04 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:55:04 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:30 ERROR    add_new_episode
+2021-10-06 12:55:30 ERROR    test1
+2021-10-06 12:55:30 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:55:30 ERROR    get_all_episodes
+2021-10-06 12:55:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:30 ERROR    get_episode_by_id
+2021-10-06 12:55:30 ERROR    1
+2021-10-06 12:55:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:30 ERROR    get_episode_by_podcast_id
+2021-10-06 12:55:30 ERROR    1
+2021-10-06 12:55:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:30 INFO     [<sqlite_database_creation.Episode object at 0x7f57d0a6ae20>, <sqlite_database_creation.Episode object at 0x7f57d0a6af40>]
+2021-10-06 12:55:30 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:55:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:30 ERROR    update_episode_as_downloaded
+2021-10-06 12:55:30 ERROR    test1
+2021-10-06 12:55:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:55:30 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:55:30 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:56:33 ERROR    add_new_episode
+2021-10-06 12:56:33 ERROR    test1
+2021-10-06 12:56:33 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:56:33 ERROR    get_all_episodes
+2021-10-06 12:56:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:56:33 ERROR    get_episode_by_id
+2021-10-06 12:56:33 ERROR    1
+2021-10-06 12:56:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:56:33 ERROR    get_episode_by_podcast_id
+2021-10-06 12:56:33 ERROR    1
+2021-10-06 12:56:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:56:33 INFO     [<sqlite_database_creation.Episode object at 0x7f4454bafe80>, <sqlite_database_creation.Episode object at 0x7f4454baffa0>]
+2021-10-06 12:56:33 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:56:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:56:33 ERROR    update_episode_as_downloaded
+2021-10-06 12:56:33 ERROR    test1
+2021-10-06 12:56:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:56:33 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:56:33 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:22 ERROR    add_new_episode
+2021-10-06 12:59:22 ERROR    test1
+2021-10-06 12:59:22 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:59:22 ERROR    get_all_episodes
+2021-10-06 12:59:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:22 ERROR    get_episode_by_id
+2021-10-06 12:59:22 ERROR    1
+2021-10-06 12:59:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:22 ERROR    get_episode_by_podcast_id
+2021-10-06 12:59:22 ERROR    1
+2021-10-06 12:59:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:22 INFO     [<sqlite_database_creation.Episode object at 0x7f9a454b1e50>, <sqlite_database_creation.Episode object at 0x7f9a454b1f70>]
+2021-10-06 12:59:22 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:59:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:22 ERROR    update_episode_as_downloaded
+2021-10-06 12:59:22 ERROR    test1
+2021-10-06 12:59:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:22 INFO     <sqlalchemy.orm.session.Session object at 0x7f9a4521baf0>
+2021-10-06 12:59:22 INFO     {}
+2021-10-06 12:59:22 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:59:22 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:52 ERROR    add_new_episode
+2021-10-06 12:59:52 ERROR    test1
+2021-10-06 12:59:52 ERROR    'dict' object has no attribute 'add'
+2021-10-06 12:59:52 ERROR    get_all_episodes
+2021-10-06 12:59:52 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:52 ERROR    get_episode_by_id
+2021-10-06 12:59:52 ERROR    1
+2021-10-06 12:59:52 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:52 ERROR    get_episode_by_podcast_id
+2021-10-06 12:59:52 ERROR    1
+2021-10-06 12:59:52 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:52 INFO     [<sqlite_database_creation.Episode object at 0x7fa2bea79e50>, <sqlite_database_creation.Episode object at 0x7fa2bea79f70>]
+2021-10-06 12:59:52 ERROR    get_episodes_with_downloads_available
+2021-10-06 12:59:52 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:52 ERROR    update_episode_as_downloaded
+2021-10-06 12:59:52 ERROR    test1
+2021-10-06 12:59:52 ERROR    'dict' object has no attribute 'query'
+2021-10-06 12:59:52 INFO     <sqlalchemy.orm.session.Session object at 0x7fa2be7e5af0>
+2021-10-06 12:59:52 INFO     {}
+2021-10-06 12:59:52 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 12:59:52 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:01:54 ERROR    add_new_episode
+2021-10-06 13:01:54 ERROR    test1
+2021-10-06 13:01:54 ERROR    'dict' object has no attribute 'add'
+2021-10-06 13:01:54 ERROR    get_all_episodes
+2021-10-06 13:01:54 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:01:54 ERROR    get_episode_by_id
+2021-10-06 13:01:54 ERROR    1
+2021-10-06 13:01:54 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:01:54 ERROR    get_episode_by_podcast_id
+2021-10-06 13:01:54 ERROR    1
+2021-10-06 13:01:54 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:01:54 INFO     [<sqlite_database_creation.Episode object at 0x7fc9b5fcce50>, <sqlite_database_creation.Episode object at 0x7fc9b5fccf70>]
+2021-10-06 13:01:54 ERROR    get_episodes_with_downloads_available
+2021-10-06 13:01:54 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:01:54 ERROR    update_episode_as_downloaded
+2021-10-06 13:01:54 ERROR    test1
+2021-10-06 13:01:54 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:01:54 INFO     <sqlalchemy.orm.session.Session object at 0x7fc9b5d38ac0>
+2021-10-06 13:01:54 INFO     {}
+2021-10-06 13:01:54 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 13:01:54 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:04:09 ERROR    add_new_episode
+2021-10-06 13:04:09 ERROR    test1
+2021-10-06 13:04:09 ERROR    'dict' object has no attribute 'add'
+2021-10-06 13:04:09 ERROR    get_all_episodes
+2021-10-06 13:04:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:04:09 ERROR    get_episode_by_id
+2021-10-06 13:04:09 ERROR    1
+2021-10-06 13:04:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:04:09 ERROR    get_episode_by_podcast_id
+2021-10-06 13:04:09 ERROR    1
+2021-10-06 13:04:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:04:09 INFO     [<sqlite_database_creation.Episode object at 0x7fd6856eaeb0>, <sqlite_database_creation.Episode object at 0x7fd6856eafd0>]
+2021-10-06 13:04:09 ERROR    get_episodes_with_downloads_available
+2021-10-06 13:04:09 ERROR    'dict' object has no attribute 'query'
+2021-10-06 13:04:09 INFO     <sqlalchemy.orm.session.Session object at 0x7fd685457b50>
+2021-10-06 13:04:09 INFO     {}
+2021-10-06 13:04:09 ERROR    update_episodes_as_viewed for test1 failed
+2021-10-06 13:04:09 ERROR    'dict' object has no attribute 'query'

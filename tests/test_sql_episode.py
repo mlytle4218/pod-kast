@@ -1,3 +1,5 @@
+from logging import FATAL
+from sqlalchemy.sql.expression import false
 import config_test
 import os, datetime
 import sqlite3
@@ -12,7 +14,7 @@ from log import logging as log
 
 test1 = Episode(
     title = 'test1',
-    published =   datetime.date(2021, 5, 1),
+    published = datetime.date(2021, 5, 1),
     summary='summary1',
     length=20,
     audio=True,
@@ -31,7 +33,7 @@ test2 = Episode(
 )
 test3 = Episode(
     title = 'test3',
-    published =   datetime.date(2021, 5, 3),
+    published = datetime.date(2021, 5, 3),
     summary='summary3',
     length=20,
     audio=True,
@@ -64,6 +66,26 @@ class TestSqlCategoryClass:
         self.DBSession = sessionmaker(bind=self.engine)
         self.session = self.DBSession()
         self.mock = {}
+
+        self.episodes = []
+
+        for i in range(8):
+            id = None
+            if i < 4 :
+                id = 1
+            else:
+                id = 2
+
+            test = Episode(
+                title = 'test{}'.format(i),
+                published = datetime.date(2021, 5, i+1),
+                summary='summary{}'.format(i),
+                length=20,
+                audio=True,
+                podcast_id=1,
+                href='http://whatever{}.com'.format(i)
+            )
+            self.episodes.append(test)
 
     @classmethod
     def teardown_class(self):
@@ -116,28 +138,77 @@ class TestSqlCategoryClass:
         assert result == None
 
 
-    # def test_update_episode_as_downloaded(self):
-    #     pass
+    def test_update_episode_as_downloaded(self):
+        assert  test1.downloaded == False
+        result = da.update_episode_as_downloaded(self.session, test1)
+
+        episode = da.get_episode_by_id(self.session, result.episode_id)
+        assert episode.downloaded == True
+
+        result = da.update_episode_as_downloaded(self.mock, test1)
+        assert result== None
+        
+    def test_update_episodes_as_viewed(self):
+        episode = da.get_episode_by_id(self.session, 1)
+        assert episode.viewed == False
+        result = da.update_episode_as_viewed(self.session, episode)
+        assert result.viewed == True
+
+        result = da.update_episode_as_viewed(self.mock, test1)
+        assert result== None
 
 
-    # def test_delete_episode(self, session, episode):
-    #     try:
-    #         session.query(Episode).filter(Episode.episode_id == episode.episode_id).delete()
-    #         session.commit()
-    #         return True
-    #     except Exception as e:
-    #         log.error('delete_episode')
-    #         log.error(episode)
-    #         log.error(str(e))
-    #     return False
+    def test_delete_episode(self):
+        num_episodes = da.get_all_episodes(self.session)
+        assert len(num_episodes) == 4
 
-    # def test_delete_episodes_by_podcast_id(self, session):
-    #     pass
+        result = da.delete_episode(self.session, test3)
+        assert result.title == test3.title
+
+        episode = da.get_episode_by_id(self.session, result.episode_id)
+        assert episode == None
+
+        num_episodes = da.get_all_episodes(self.session)
+        assert len(num_episodes) == 3
+
+        result = da.delete_episode(self.session, test4)
+        assert result.title == test4.title
+
+        num_episodes = da.get_all_episodes(self.session)
+        assert len(num_episodes) == 2
+
+
+
+    def test_delete_episodes_by_podcast_id(self):
+        numEpisodes = da.get_all_episodes(self.session)
+        assert len(numEpisodes) == 2
+
+        result = da.delete_episodes_by_podcast_id(self.session, 1)
+        assert result == 2
+
+        numEpisodes = da.get_all_episodes(self.session)
+        assert len(numEpisodes) == 0
+    
+    def test_insert_episodes(self):
+        episode_array = []
+        episode_array.append(test1)
+        episode_array.append(test2)
+        episode_array.append(test3)
+        episode_array.append(test4)
+
+        numEpisodes = da.get_all_episodes(self.session)
+        assert len(numEpisodes) == 0
+
+        result = da.insert_episodes(self.session, self.episodes)
+        assert len(result) == len(self.episodes)
+
+        numEpisodes = da.get_all_episodes(self.session)
+        assert len(numEpisodes) == len(self.episodes)
+        
 
     # def test_get_number_of_available_episodes_bu_podcast(self, session):
     #     pass
-    # def test_update_episodes_as_viewsd(self, session):
-    #     pass
+
     # def test_update_episodes_fix(self, session):
     #     pass
     # def test_insert_single_episode(self, session):
