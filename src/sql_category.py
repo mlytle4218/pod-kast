@@ -6,7 +6,7 @@ from log import logging as log
 
 table = 'categories'
 
-class DatabaseAccessor:
+class CategoryControls:
     def add_new_category(session, category):
         exists = session.query(Category).filter_by(title=str(category)).first()
         if not exists:

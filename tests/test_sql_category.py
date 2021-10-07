@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
 #local imports
-from sql_category import DatabaseAccessor as da
+from sql_category import CategoryControls as sql_category
 from sqlite_database_creation import Category, create_database
 from log import logging as log
 
@@ -48,26 +48,26 @@ class TestSqlCategoryClass:
     def test_add_category(self):
         name  = test1
         category = Category(title=name)
-        result = da.add_new_category(self.session,category)
+        result = sql_category.add_new_category(self.session,category)
         print(str(result))
         assert name == str(result)
 
-        result = da.add_new_category(self.session,category)
+        result = sql_category.add_new_category(self.session,category)
         assert False == result
 
         name  = test2
         category = Category(title=name)
-        result = da.add_new_category(self.session,category)
+        result = sql_category.add_new_category(self.session,category)
         print(str(result))
         assert name == str(result)
 
-        result = da.get_all_categories(self.session)
+        result = sql_category.get_all_categories(self.session)
         assert len(result) == 2
 
     def test_remove_category(self):
-        result = da.remove_category(self.session,title=str(test1))
+        result = sql_category.remove_category(self.session,title=str(test1))
         assert result == True
         
-        result = da.remove_category(self.session,title=str(test1))
+        result = sql_category.remove_category(self.session,title=str(test1))
         assert result == False
         
