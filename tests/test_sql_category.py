@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
 #local imports
-from sql_category import CategoryControls as sql_category
+from sql_category import CategoryControls
 from sqlite_database_creation import Category, create_database
 from log import logging as log
 
@@ -16,6 +16,7 @@ test2 = 'test2'
 class TestSqlCategoryClass:
     @classmethod
     def setup_class(self):
+        self.catagoryControls = CategoryControls()
         create_database('{}{}'.format(config_test.home,config_test.name))
         data_base = "sqlite:///{}".format('{}{}'.format(config_test.home,config_test.name))
         self.engine = create_engine(data_base)
@@ -48,26 +49,26 @@ class TestSqlCategoryClass:
     def test_add_category(self):
         name  = test1
         category = Category(title=name)
-        result = sql_category.add_new_category(self.session,category)
+        result = self.catagoryControls.add_new_category(self.session,category)
         print(str(result))
         assert name == str(result)
 
-        result = sql_category.add_new_category(self.session,category)
-        assert False == result
+        result = self.catagoryControls.add_new_category(self.session,category)
+        assert result == None
 
         name  = test2
         category = Category(title=name)
-        result = sql_category.add_new_category(self.session,category)
+        result = self.catagoryControls.add_new_category(self.session,category)
         print(str(result))
         assert name == str(result)
 
-        result = sql_category.get_all_categories(self.session)
+        result = self.catagoryControls.get_all_categories(self.session)
         assert len(result) == 2
 
     def test_remove_category(self):
-        result = sql_category.remove_category(self.session,title=str(test1))
+        result = self.catagoryControls.remove_category(self.session,title=str(test1))
         assert result == True
         
-        result = sql_category.remove_category(self.session,title=str(test1))
-        assert result == False
+        result = self.catagoryControls.remove_category(self.session,title=str(test1))
+        assert result == None
         

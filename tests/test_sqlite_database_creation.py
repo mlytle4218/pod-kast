@@ -35,7 +35,9 @@ class TestSqliteDatabaseCreationClass:
     def test_create_database (self):
         results = self.cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
         for result in results.fetchall():
+            print(result)
             assert result in [('categories',),('episodes',),('podcasts',),]
+        assert False
 
     # def test_sql_catagory(self):
     #     TestSqlCategoryClass.add_category_test(connection=self.cursor)

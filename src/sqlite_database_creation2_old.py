@@ -15,6 +15,14 @@ from log import logging as log
 
 Base = declarative_base()
 
+class DatabaseCreator:
+    def __init__(self):
+        self.Base = declarative_base()
+
+    def create_database(self, location):
+        engine = create_engine('sqlite:///{}'.format(location))
+        self.Base.metadata.create_all(engine)
+
 class Category(Base):
     __tablename__ = 'categories'
     category_id = Column(Integer, primary_key = True)
@@ -94,13 +102,12 @@ class Episode(Base):
     def __ne__(self,other):
         return self.title != other.title or self.published != other.published
 
-def create_database(location):
+def create_database_old(location):
     engine = create_engine('sqlite:///{}'.format(location))
-    log.info(engine)
     Base.metadata.create_all(engine)
 
 
 if __name__ == "__main__":
-    create_database(config.home)
+    create_database_old(config.home)
     log.info(config.home)
     pass

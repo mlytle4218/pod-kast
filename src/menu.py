@@ -9,8 +9,10 @@ import utils
 from sql_category import CategoryControls as sql_category
 
 class Menu:
-    def __init__(self):
-        pass
+    
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
     def main_menu(self):
         try:
@@ -27,8 +29,8 @@ class Menu:
                 print('number 9 delete from download queue')
                 print('number 10 update all podcasts')
                 print('number 11 archive')
-                response = self.get_input('choice')
-                if ( not utils.special_characters_check(response)):
+                response = self.get_input('choice ')
+                if (response and not utils.special_characters_check(response)):
                     return response
         except KeyboardInterrupt:
             pass
@@ -43,7 +45,20 @@ class Menu:
                     return response
                 return None
         except KeyboardInterrupt:
-            pass
+            return None
+
+    def print_out_menu_options(self, objects, attribute=None, three=None, four=None, five=None):
+        objects = self.display_item_formatter(objects)
+        for object in objects:
+            log.info(object)
+        return objects[0]
+
+    def display_item_formatter(self, objects):
+        result = enumerate(objects, 1)
+        for i,obj in result:
+            log.info('{}. {}'.format(i,str(obj)))
+
+        return objects
     
     
     
