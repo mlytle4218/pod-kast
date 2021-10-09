@@ -31,17 +31,17 @@ class Podcast(Base):
     # Here we define columns for the table person
     # Notice that each column is also a normal Python instance attribute.
     podcast_id = Column(Integer, primary_key = True)
-    name = Column(String(250))
+    title = Column(String(250))
     url  = Column(String(250))
     audio = Column(String(250))
     video = Column(String(250))
     category = Column(String(250))
 
     def __str__(self):
-        return self.name + ":" + self.url
+        return self.title
 
-    def __init__(self,name='',url='',audio='',video='',category=''):
-        self.name = name
+    def __init__(self,title='',url='',audio='',video='',category=''):
+        self.title = title
         self.url = url
         self.audio = audio
         self.video = video

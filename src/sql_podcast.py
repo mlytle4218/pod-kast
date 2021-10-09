@@ -7,16 +7,17 @@ from log import logging as log
 
 table = 'podcasts'
 
-class DatabaseAccessor:
-    def add_new_podcast(session, podcast):
+class PodcastControls:
+    def add_new_podcast(self, session, podcast):
         try:
             session.add(podcast)
+            session.commit()
             return podcast
         except Exception as e:
             log.error(e)
         return None
 
-    def get_first_podcast(session):
+    def get_first_podcast(self, session):
         try:
             result = session.query(Podcast).first()
             return result
@@ -24,7 +25,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def get_all_podcasts(session):
+    def get_all_podcasts(self, session):
         try:
             result = session.query(Podcast).all()
             return result
@@ -32,7 +33,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def get_podcast_by_id(session, id):
+    def get_podcast_by_id(self, session, id):
         try:
             result =  session.query(Podcast).filter(Podcast.podcast_id == id).first()
             return result
@@ -40,9 +41,10 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def delete_podcast_id(session, id):
+    def delete_podcast_id(self, session, id):
         try:
             result =  session.query(Podcast).filter(Podcast.podcast_id == id).delete()
+            session.commit()
             return result
         except Exception as e:
             log.error(e)
@@ -50,15 +52,15 @@ class DatabaseAccessor:
 
     
 
-    def get_all_podcasts_with_category(session):
+    def get_all_podcasts_with_category(self, session):
         # this proabably goes in an utilty module
         pass
     
-    def get_podcasts_with_downloads_available(session):
+    def get_podcasts_with_downloads_available(self, session):
         # this proabably goes in an utilty module
         pass
     
-    def update_podcast2(session):
+    def update_podcast2(self, session):
         # this proabably goes in an utilty module
         pass
     

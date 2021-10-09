@@ -5,8 +5,9 @@ import os, subprocess
 import utils
 from data_accessor import DataAccessor
 from menu import Menu 
-from sqlite_database_creation import Category
+from sqlite_database_creation import Category, Podcast
 from sql_category import CategoryControls
+from sql_podcast import PodcastControls
 import config
 
 
@@ -26,6 +27,7 @@ class Main:
             
         self.menu = Menu(width, height)
         self.category_controls = CategoryControls()
+        self.podcast_controls = PodcastControls()
         self.start()
     
     def start(self):
@@ -70,40 +72,76 @@ class Main:
         category_name = self.menu.get_input('Enter category name: ')
         if category_name:
             category = Category(category_name)
-            result = self.category_controls.add_new_category(self.session, category)
-            if not result:
-                print('{} could not be added as a category'.format(category_name))
-                input('press enter to acknowledge')
-            else:
-                print('{} was added as a category'.format(category_name))
-                input('press enter to acknowledge')
+            self.category_controls.add_new_category(self.session, category)
+            self.result_print(category, 'added')
 
         
     def edit_category(self):
         os.system('clear')
         categories = self.category_controls.get_all_categories(self.session)
-        category = self.menu.print_out_menu_options(
-            objects=categories, attribute='category')
+        category = self.menu.print_out_menu_options_categories(objects=categories)
         if category:
             category.title = utils.rlinput('category name: ', category.title).strip()
             result  = self.category_controls.update_category(self.session, category)
-            if result:
-                print('{} was updated'.format(category.title))
-                input('press enter to acknowledge')
-                return
-            else:
-                print('{} was not updated'.format(category.title))
-                input('press enter to acknowledge')
+            self.result_print(category, 'updated')
 
 
     def delete_category(self):
-        pass
+        os.system('clear')
+        categories = self.category_controls.get_all_categories(self.session)
+        category = self.menu.print_out_menu_options_categories(objects=categories)
+        if category:
+            self.category_controls.remove_category(self.session, category)
+            self.result_print(category, 'deleted')
+
+
+
     def add_new_podcast(self):
-        pass
+        os.system('clear')
+        podcast = Podcast()
+        podcast.title = self.menu.get_input('Enter name: ')
+        podcast.url = self.menu.get_input('Enter url name: ')
+        podcast.audio  = self.menu.get_input('Enter audio directory: ')
+        podcast.video  = self.menu.get_input('Enter video directory: ')
+        categories = self.category_controls.get_all_categories(self.session)
+        category = self.menu.print_out_menu_options_categories(objects=categories)
+        podcast.category = category.category_id
+        self.podcast_controls.add_new_podcast(self.session,podcast)
+        self.result_print(podcast, 'added')
+        # TODO: add episode creation
+
+
+
+        # self.title = title
+        # self.url = url
+        # self.audio = audio
+        # self.video = video
+        # self.catgory = category
+        # podcast = enter_podcast_info(podcast)
+        # if podcast != None:
+        #     episodes = backend.get_episodes_from_feed(podcast.url)
+        #     sql.insert_podcast(podcast, episodes)
+        #     pass
+
     def edit_existing_podcast(self):
+        os.system('clear')
+        podcasts = self.podcast_controls.get_all_podcasts(self.session)
+        podcast = self.menu.display_items_podcasts(objects=podcasts)
+        # if podcast:
+        #     podcast.title = utils.rlinput('podcast name: ', podcast.title).strip()
+        #     result  = self.podcast_controls.update_podcast(self.session, podcast)
+        #     self.result_print(podcast, 'updated')
+
         pass
     def delete_existing_podcast(self):
+        os.system('clear')
+        podcasts = self.podcast_controls.get_all_podcasts(self.session)
+        podcast = self.menu.display_items_podcasts(objects=podcasts)
+        if podcast:
+            self.podcast_controls.delete_podcast_id(self.session, podcast.podcast_id)
+            self.result_print(podcast, 'deleted')
         pass
+    
     def choose_episodes_to_download(self):
         pass
     def start_downloads(self):
@@ -116,6 +154,15 @@ class Main:
         pass
     def list_archived_episodes(self):
         pass
+
+
+    def result_print(self, result, message_text):
+        if result:
+            print('{} was {}'.format(result, message_text))
+            input('press enter to acknowledge')
+        else:
+            print('{} was not {}'.format(result, message_text))
+            input('press enter to acknowledge')
 
 if __name__ == "__main__":
     Main()
