@@ -37,7 +37,7 @@ class TestSqliteDatabaseCreationClass:
         for result in results.fetchall():
             print(result)
             assert result in [('categories',),('episodes',),('podcasts',),]
-        assert False
+        # assert False
 
     # def test_sql_catagory(self):
     #     TestSqlCategoryClass.add_category_test(connection=self.cursor)

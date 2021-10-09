@@ -66,9 +66,9 @@ class TestSqlCategoryClass:
         assert len(result) == 2
 
     def test_remove_category(self):
-        result = self.catagoryControls.remove_category(self.session,title=str(test1))
+        result = self.catagoryControls.remove_category(self.session, test1)
         assert result == True
         
-        result = self.catagoryControls.remove_category(self.session,title=str(test1))
+        result = self.catagoryControls.remove_category(self.session, test1)
         assert result == None
         

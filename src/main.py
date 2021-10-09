@@ -106,8 +106,9 @@ class Main:
         categories = self.category_controls.get_all_categories(self.session)
         category = self.menu.print_out_menu_options_categories(objects=categories)
         podcast.category = category.category_id
-        self.podcast_controls.add_new_podcast(self.session,podcast)
-        self.result_print(podcast, 'added')
+        result = self.podcast_controls.add_new_podcast(self.session,podcast)
+        if result:
+            self.result_print(podcast, 'added')
         # TODO: add episode creation
 
 

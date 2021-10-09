@@ -6,12 +6,12 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
 #local imports
-from sql_podcast import DatabaseAccessor as da
+from sql_podcast import PodcastControls
 from sqlite_database_creation import Podcast, create_database
 from log import logging as log
 
 test1 = Podcast(
-    name='test1',
+    title='test1',
     url='http://whatever.com',
     audio='',
     video='',
@@ -19,7 +19,7 @@ test1 = Podcast(
 )
 
 test2 = Podcast(
-    name='test2',
+    title='test2',
     url='http://whatever.com',
     audio='',
     video='',
@@ -29,6 +29,7 @@ test2 = Podcast(
 class TestSqlCategoryClass:
     @classmethod
     def setup_class(self):
+        self.podcastControls = PodcastControls()
         create_database('{}{}'.format(config_test.home,config_test.name))
         data_base = "sqlite:///{}".format('{}{}'.format(config_test.home,config_test.name))
         self.engine = create_engine(data_base)
@@ -45,43 +46,43 @@ class TestSqlCategoryClass:
 
     ## Tests when nothing in the database
     def test_get_first_podcast_no_data(self):
-        result = da.get_first_podcast(self.session)
+        result = self.podcastControls.get_first_podcast(self.session)
         assert None == result
 
     def test_get_all_podcasts_no_data(self):
-        result = da.get_all_podcasts(self.session)
+        result = self.podcastControls.get_all_podcasts(self.session)
         assert result == []
 
 
     def test_get_podcast_by_id_no_data(self):
-        result = da.get_podcast_by_id(self.session, 2)
+        result = self.podcastControls.get_podcast_by_id(self.session, 2)
         assert result == None
 
     def test_delete_podcast_no_data(self):
-        result = da.get_podcast_by_id(self.session, 2)
+        result = self.podcastControls.get_podcast_by_id(self.session, 2)
         assert result == None
 
     ## Tests with some data in the database
     def test_insert_podcast(self):
-        result = da.add_new_podcast(self.session,test1)
-        assert result.name == test1.name
+        result = self.podcastControls.add_new_podcast(self.session,test1)
+        assert result.title == test1.title
 
-        result = da.add_new_podcast(self.session,test2)
-        assert result.name == test2.name
+        result = self.podcastControls.add_new_podcast(self.session,test2)
+        assert result.title == test2.title
 
     def test_get_first_podcast(self):
-        result = da.get_first_podcast(self.session)
-        assert result.name == test1.name
+        result = self.podcastControls.get_first_podcast(self.session)
+        assert result.title == test1.title
 
     def test_get_all_podcasts(self):
-        result = da.get_all_podcasts(self.session)
+        result = self.podcastControls.get_all_podcasts(self.session)
         assert len(result) == 2
 
     def test_get_podcast_by_id(self):
-        result = da.get_podcast_by_id(self.session, 2)
-        assert result.name == test2.name
+        result = self.podcastControls.get_podcast_by_id(self.session, 2)
+        assert result.title == test2.title
 
     def test_delete_podcast(self):
-        result = da.get_podcast_by_id(self.session, 2)
-        assert result.name == test2.name
+        result = self.podcastControls.get_podcast_by_id(self.session, 2)
+        assert result.title == test2.title
 

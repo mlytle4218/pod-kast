@@ -40,8 +40,9 @@ class CategoryControls:
         try:
             result = session.query(Category).filter(Category.category_id == category.category_id).delete()
             session.commit()
-            return result
+            return category
         except Exception as e:
+            log.error('remove_category')
             log.error(e)
             return None
         # # result = session.query(Category).filter_by(title=str(title)).first()

@@ -1,5 +1,6 @@
 from sqlalchemy.sql import expression
 from sqlite_database_creation import Podcast
+from sql_episode import EpisodeControls
 from sqlalchemy import insert
 
 from log import logging as log
@@ -8,6 +9,10 @@ from log import logging as log
 table = 'podcasts'
 
 class PodcastControls:
+    def __init__(self):
+        self.episodeControls = EpisodeControls()
+        pass
+    
     def add_new_podcast(self, session, podcast):
         try:
             session.add(podcast)

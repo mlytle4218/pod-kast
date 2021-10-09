@@ -10,8 +10,8 @@ from log import logging as log
 
 table = 'episodes'
 
-class DatabaseAccessor:
-    def add_new_episode(session, episode):
+class EpisodeControls:
+    def add_new_episode(self, session, episode):
         try:
             session.add(episode)
             return episode
@@ -23,7 +23,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def get_all_episodes(session):
+    def get_all_episodes(self, session):
         try:
             return session.query(Episode).all()
         except AttributeError as e:
@@ -33,7 +33,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
     
-    def get_episode_by_id(session, id):
+    def get_episode_by_id(self, session, id):
         try:
             return session.query(Episode).filter(Episode.episode_id == id).first()
         except AttributeError as e:
@@ -44,7 +44,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def get_episodes_by_podcast_id(session, id):
+    def get_episodes_by_podcast_id(self, session, id):
         try:
             return session.query(Episode).filter(Episode.podcast_id == id).all()
         except AttributeError as e:
@@ -55,7 +55,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def get_episodes_with_downloads_available_by_podcast_id(session, id):
+    def get_episodes_with_downloads_available_by_podcast_id(self, session, id):
         try:
             return session.query(Episode).filter(
                 Episode.podcast_id == id
@@ -71,7 +71,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def update_episode_as_downloaded(session, episode):
+    def update_episode_as_downloaded(self, session, episode):
         try:
             result = session.query(Episode).filter(Episode.episode_id == episode.episode_id).update({"downloaded":True})
             # result.downloaded = True
@@ -83,9 +83,9 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def update_episode_as_viewed(session, episode):
+    def update_episode_as_viewed(self, session, episode):
         try:
-            # log.info(session)
+            # log.info(self, session)
             session.query(Episode).filter(Episode.episode_id == episode.episode_id).update({"viewed":True})
             # session.commit()
             return episode
@@ -96,7 +96,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def delete_episode(session, episode):
+    def delete_episode(self, session, episode):
         try:
             session.query(Episode).filter(Episode.episode_id == episode.episode_id).delete()
             session.commit()
@@ -107,7 +107,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
             
-    def delete_episodes_by_podcast_id(session, id):
+    def delete_episodes_by_podcast_id(self, session, id):
         try:
             result  = session.query(Episode).filter(Episode.podcast_id == id).delete(synchronize_session=False)
             session.commit()
@@ -118,7 +118,7 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def insert_episodes(session, episode_array):
+    def insert_episodes(self, session, episode_array):
         try:
             # for episode in episode_array:
             #     result = session.add(episode)
@@ -130,12 +130,12 @@ class DatabaseAccessor:
             log.error(e)
         return None
 
-    def get_number_of_available_episodes_by_podcast(session):
+    def get_number_of_available_episodes_by_podcast(self, session):
         #just returns the number - must be  better way
         # is used to show the number on the screen
         pass
 
-    def update_episodes_fix(session):
+    def update_episodes_fix(self, session):
         # not sure this is needed
         pass
 
