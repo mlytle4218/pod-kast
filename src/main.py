@@ -91,8 +91,9 @@ class Main:
                 print('{} was updated'.format(category.title))
                 input('press enter to acknowledge')
                 return
-        print('{} was not updated'.format(category.title))
-        input('press enter to acknowledge')
+            else:
+                print('{} was not updated'.format(category.title))
+                input('press enter to acknowledge')
 
 
     def delete_category(self):

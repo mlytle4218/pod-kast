@@ -1,5 +1,7 @@
 import os, sys
 
+from enum import Enum
+
 from sqlalchemy import sql
 from sqlite_database_creation import Podcast, Episode, Category
 
@@ -48,17 +50,34 @@ class Menu:
             return None
 
     def print_out_menu_options(self, objects, attribute=None, three=None, four=None, five=None):
-        objects = self.display_item_formatter(objects)
-        for object in objects:
-            log.info(object)
-        return objects[0]
+        result = self.display_items(objects)
+        if result:
+            return result
+        else:
+            return None
 
-    def display_item_formatter(self, objects):
-        result = enumerate(objects, 1)
-        for i,obj in result:
-            log.info('{}. {}'.format(i,str(obj)))
-
-        return objects
+    def display_items(self, objects):
+        object_dict = {}
+        object_enum = enumerate(objects, 1)
+        for i,obj in object_enum: 
+            object_dict[i] = obj
+            print('{}. {}'.format(i,str(obj)))
+        while True:
+            try:
+                result = input('choice ') 
+                if result == 'n':
+                    # next page
+                    pass
+                elif result == 'p':
+                    # previous page
+                    pass
+                elif result == 'q':
+                    return None
+                else:
+                    back = object_dict[int(result)]
+                    return back
+            except ValueError as e:
+                log.error(e)
     
     
     
